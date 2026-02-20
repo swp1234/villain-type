@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "¿Qué tipo de villano eres?",
+    "description": "Descubre tu arquetipo de villano con 10 preguntas de escenario. ¿Eres el Cerebro, el Encantador, el Rebelde, el Tirano, el Embaucador o el Héroe Caído?"
+  },
+  "a11y": {
+    "skipLink": "Saltar al contenido principal"
+  },
+  "intro": {
+    "title": "¿Qué tipo de villano eres?",
+    "subtitle": "10 escenarios para revelar la oscuridad en tu interior",
+    "start": "Comenzar el test",
+    "questionCount": "10 preguntas · aprox. 2 min"
+  },
+  "quiz": {
+    "q1": {
+      "question": "Lideras una organización secreta. Te enteras de que hay un traidor entre ustedes. ¿Qué haces?",
+      "a": "Recopilar información en silencio y tender una trampa para que el traidor se delate",
+      "b": "Hablar con cada miembro en privado, fingiendo confianza mientras extraes información",
+      "c": "El traidor no importa — el verdadero problema es el sistema corrupto",
+      "d": "Castigar inmediatamente a los sospechosos como advertencia para el resto"
+    },
+    "q2": {
+      "question": "Tu enemigo ha descubierto tu debilidad. ¿Cómo respondes?",
+      "a": "Exagerar la debilidad para ocultar la real. La confusión es el mejor escudo",
+      "b": "Anticipé este escenario hace tiempo y ya tengo contramedidas",
+      "c": "Aceptar la debilidad y demostrar que me hizo más fuerte",
+      "d": "Convertir al enemigo en aliado con una oferta encantadora"
+    },
+    "q3": {
+      "question": "Has obtenido poder absoluto. ¿Qué es lo primero que haces?",
+      "a": "Eliminar toda oposición y establecer un orden total",
+      "b": "Hacer que la gente me ame. El encanto dura más que el miedo",
+      "c": "Desmantelar completamente el sistema corrupto y construir uno nuevo",
+      "d": "Construir un sistema para controlarlo todo desde las sombras"
+    },
+    "q4": {
+      "question": "Un colega que te traicionó pide perdón. ¿Qué haces?",
+      "a": "Fingir perdonar, luego ejecutar una venganza mayor. El momento lo es todo",
+      "b": "Perdonar de verdad. Yo también he traicionado a alguien antes",
+      "c": "Castigarlo públicamente como ejemplo para los demás",
+      "d": "Analizar el motivo de la traición y usarlo en mi estrategia"
+    },
+    "q5": {
+      "question": "El héroe se arrodilla ante ti. ¿Qué le dices?",
+      "a": "\"Levántate. Estamos del mismo lado, solo con métodos diferentes.\"",
+      "b": "\"¿Lo ves? Las reglas de este mundo están podridas. Cambiémoslas juntos.\"",
+      "c": "\"Interesante. Pero esto es solo el comienzo.\"",
+      "d": "\"Yo era como tú. Pero el mundo me convirtió en esto.\""
+    },
+    "q6": {
+      "question": "Es la etapa final de tu gran plan. Pero aparece una variable inesperada.",
+      "a": "Ya tengo cinco planes de respaldo. En el ajedrez siempre se predice la siguiente jugada",
+      "b": "Variable o no, avanzo con fuerza. Los obstáculos están para ser aplastados",
+      "c": "Ganar a la variable con encanto y persuasión",
+      "d": "Una variable es una oportunidad. Prospero en el caos"
+    },
+    "q7": {
+      "question": "Han descubierto tu escondite. Tienes 30 minutos.",
+      "a": "Mezclar todas las pruebas al azar. Cuanto más investiguen, más confundidos estarán",
+      "b": "Dejar que entren. Este lugar es una trampa",
+      "c": "Estoy furioso. Que vengan. Los enfrentaré de frente",
+      "d": "Llevarme con calma lo importante y partir. Vivir para luchar otro día"
+    },
+    "q8": {
+      "question": "Necesitas reclutar nuevos aliados. ¿Qué método eliges?",
+      "a": "Acercarme personalmente y explotar sus sueños y deseos",
+      "b": "Encontrar a los oprimidos y dar un discurso: \"Luchemos juntos\"",
+      "c": "Recopilar las debilidades y secretos de todos para crear una red de inteligencia",
+      "d": "No reclutar a nadie. Es mejor trabajar solo. La confianza es un lujo"
+    },
+    "q9": {
+      "question": "¿Cuál es tu estrategia para la confrontación final?",
+      "a": "Abrumar con potencia de fuego y fuerzas en un asalto frontal total",
+      "b": "Atacar desde un ángulo inesperado. Un método que nadie podría predecir",
+      "c": "Persuadir a la figura clave del enemigo para que cambie de bando",
+      "d": "Demostrar que la causa del enemigo es errónea para destruir su moral"
+    },
+    "q10": {
+      "question": "Cuando todo termine, ¿cómo quieres ser recordado?",
+      "a": "\"Fue un héroe una vez. Pero el mundo lo traicionó.\"",
+      "b": "\"Nadie conoció jamás su verdadero plan. Todo fue según su diseño.\"",
+      "c": "\"Nadie se atrevía a desafiarlo.\"",
+      "d": "\"¿Fue real o una ilusión? Nadie lo sabe.\""
+    }
+  },
+  "result": {
+    "yourType": "TU TIPO DE VILLANO",
+    "powerLevel": "NIVEL DE PODER MALIGNO",
+    "breakdown": "Desglose de puntuación",
+    "share": "Compartir resultado",
+    "retry": "Repetir test"
+  },
+  "results": {
+    "mastermind": {
+      "name": "El Cerebro",
+      "title": "El Titiritero de las Sombras",
+      "description": "Siempre piensas diez pasos adelante. Nunca actúas directamente — todo fluye según tu plan. La gente se mueve en tu tablero sin siquiera saber que existes.",
+      "traits": ["Pensamiento estratégico", "Paciencia", "Inteligencia", "Control emocional", "Visión a largo plazo"],
+      "quote": "La mejor jugada es hacer que tu oponente crea que fue su elección."
+    },
+    "charmer": {
+      "name": "El Encantador",
+      "title": "El Manipulador Seductor",
+      "description": "Controlas a la gente con carisma y encanto. Gobiernas con fascinación, no con miedo, y nadie conoce tus verdaderas intenciones. Todos te aman — y esa es exactamente la trampa.",
+      "traits": ["Carisma", "Manipulación emocional", "Habilidades sociales", "Empatía", "Dualidad"],
+      "quote": "La gente lo da todo a quien les hace sentir comprendidos."
+    },
+    "rebel": {
+      "name": "El Rebelde",
+      "title": "El Destructor del Sistema",
+      "description": "Eres un antihéroe que lucha por destruir sistemas corruptos. Tus métodos pueden ser extremos, pero tu causa es más pura que la de nadie. Sabes que las revoluciones no se hacen con manos limpias.",
+      "traits": ["Principios", "Rebeldía", "Justicia", "Radicalismo", "Carisma"],
+      "quote": "Un árbol podrido necesita ser arrancado de raíz, no podado."
+    },
+    "tyrant": {
+      "name": "El Tirano",
+      "title": "La Encarnación del Poder Absoluto",
+      "description": "Gobiernas con fuerza e intimidación. No hay compromiso — tu voluntad es la ley. Crees en el orden a través del miedo, y solo los fuertes merecen liderar.",
+      "traits": ["Presencia abrumadora", "Determinación", "Crueldad", "Liderazgo", "Ambición"],
+      "quote": "Solo quien puede soportar el peso de la corona merece llevarla."
+    },
+    "trickster": {
+      "name": "El Embaucador",
+      "title": "El Maestro del Caos",
+      "description": "Brillas en el caos impredecible. Las reglas existen para romperse, y la seriedad es tu enemigo. Conviertes todo en un juego — y siempre ganas.",
+      "traits": ["Impredecible", "Ingenioso", "Adaptable", "Creativo", "Travieso"],
+      "quote": "Cuando el mundo arde, lo más hermoso es la llama misma."
+    },
+    "fallen": {
+      "name": "El Héroe Caído",
+      "title": "El Protagonista Trágico",
+      "description": "Una vez luchaste por la justicia. Pero la traición y la pérdida te cambiaron. Detrás de tu crueldad yace el idealismo de tu pasado — y eso te convierte en el villano más peligroso.",
+      "traits": ["Pasado trágico", "Lógica fría", "Empatía", "Resolución brutal", "Dualidad"],
+      "quote": "El mundo crea héroes, pero también crea villanos."
+    }
+  },
+  "share": {
+    "title": "Compartir resultado",
+    "text": "Mi tipo de villano es: ¡{type}! ¿Qué tipo de villano eres tú?",
+    "copy": "Copiar enlace",
+    "copied": "¡Copiado!",
+    "copyFail": "Error al copiar"
+  }
+}

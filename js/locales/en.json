@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "What Type of Villain Are You?",
+    "description": "Discover your villain archetype through 10 scenario-based questions. Are you the Mastermind, the Charmer, the Rebel, the Tyrant, the Trickster, or the Fallen Hero?"
+  },
+  "a11y": {
+    "skipLink": "Skip to main content"
+  },
+  "intro": {
+    "title": "What Type of Villain Are You?",
+    "subtitle": "10 scenarios to reveal the darkness within",
+    "start": "Start the Test",
+    "questionCount": "10 questions · about 2 min"
+  },
+  "quiz": {
+    "q1": {
+      "question": "You lead a secret organization. You just learned there's a traitor among you. What do you do?",
+      "a": "Quietly gather intel and set a trap so the traitor reveals themselves",
+      "b": "Talk to each member privately, feigning trust while extracting information",
+      "c": "The traitor doesn't matter — the real problem is the corrupt system itself",
+      "d": "Immediately punish the suspects to send a warning to the rest"
+    },
+    "q2": {
+      "question": "Your enemy has discovered your weakness. How do you respond?",
+      "a": "Exaggerate the weakness to hide the real one. Confusion is the best shield",
+      "b": "I anticipated this scenario long ago and already have countermeasures",
+      "c": "Accept the weakness and show it made me stronger",
+      "d": "Make the enemy an ally with a charming offer"
+    },
+    "q3": {
+      "question": "You've gained absolute power. What's the first thing you do?",
+      "a": "Eliminate all opposition and establish total order",
+      "b": "Make people love me. Charm lasts longer than fear",
+      "c": "Tear down the corrupt system entirely and build a new order",
+      "d": "Build a system to control everything from the shadows"
+    },
+    "q4": {
+      "question": "A colleague who betrayed you begs for forgiveness. What do you do?",
+      "a": "Pretend to forgive, then execute a far greater revenge later. Timing is everything",
+      "b": "Truly forgive them. I too have betrayed someone before",
+      "c": "Punish them publicly as an example to others",
+      "d": "Analyze the motive of the betrayal and use it in my strategy"
+    },
+    "q5": {
+      "question": "The hero kneels before you. What do you say?",
+      "a": "\"Get up. We're on the same side — just with different methods.\"",
+      "b": "\"See? The rules of this world are rotten. Let's change them together.\"",
+      "c": "\"Amusing. But this is only the beginning.\"",
+      "d": "\"I was once like you. But the world made me this way.\""
+    },
+    "q6": {
+      "question": "It's the final stage of your grand plan. But an unexpected variable appears.",
+      "a": "I already have five backup plans. In chess, you always predict the next move",
+      "b": "Variable or not, I push through with force. Obstacles are meant to be crushed",
+      "c": "Win the variable over with charm and persuasion",
+      "d": "A variable is an opportunity. I thrive in chaos"
+    },
+    "q7": {
+      "question": "Your hideout has been discovered. You have 30 minutes.",
+      "a": "Scramble all evidence randomly. The more they investigate, the more confused they get",
+      "b": "Let them come in. This place is a trap",
+      "c": "I'm furious. Let them come. I'll face them head-on",
+      "d": "Calmly take what matters and leave. Live to fight another day"
+    },
+    "q8": {
+      "question": "You need to recruit new allies. What method do you choose?",
+      "a": "Approach personally and exploit their dreams and desires",
+      "b": "Find the oppressed and give a rallying speech: \"Let's fight together\"",
+      "c": "Gather everyone's weaknesses and secrets to build an intelligence network",
+      "d": "Recruit no one. Working alone is better. Trust is a luxury"
+    },
+    "q9": {
+      "question": "What's your strategy for the final confrontation?",
+      "a": "Overwhelm them with firepower and forces in a full frontal assault",
+      "b": "Strike from an unexpected angle. A method no one could predict",
+      "c": "Persuade the enemy's key figure to switch sides",
+      "d": "Prove that the enemy's cause is flawed to crush their morale"
+    },
+    "q10": {
+      "question": "When it's all over, how do you want to be remembered?",
+      "a": "\"He was once a hero. But the world betrayed him.\"",
+      "b": "\"No one ever knew his true plan. Everything went according to his design.\"",
+      "c": "\"No one dared defy him.\"",
+      "d": "\"Was he real, or was he an illusion? No one knows.\""
+    }
+  },
+  "result": {
+    "yourType": "YOUR VILLAIN TYPE",
+    "powerLevel": "EVIL POWER LEVEL",
+    "breakdown": "Score Breakdown",
+    "share": "Share Result",
+    "retry": "Take Again"
+  },
+  "results": {
+    "mastermind": {
+      "name": "The Mastermind",
+      "title": "The Shadow Puppeteer",
+      "description": "You always think ten steps ahead. You never act directly — everything flows according to your plan. People move on your chessboard without even knowing you exist.",
+      "traits": ["Strategic Thinking", "Patience", "Intel Gathering", "Emotional Control", "Long-term Vision"],
+      "quote": "The greatest move is making your opponent believe it was their choice."
+    },
+    "charmer": {
+      "name": "The Charmer",
+      "title": "The Seductive Manipulator",
+      "description": "You control people through charisma and charm. You rule through fascination, not fear, and no one ever knows your true intentions. Everyone loves you — and that's exactly the trap.",
+      "traits": ["Charisma", "Emotional Manipulation", "Social Skills", "Empathy", "Duality"],
+      "quote": "People give everything to someone who makes them feel understood."
+    },
+    "rebel": {
+      "name": "The Rebel",
+      "title": "The System Destroyer",
+      "description": "You're an anti-hero fighting to tear down corrupt systems. Your methods may be extreme, but your cause is purer than anyone's. You know revolutions can't be made with clean hands.",
+      "traits": ["Principled", "Defiant", "Justice-driven", "Radical", "Charismatic"],
+      "quote": "A rotten tree needs to be uprooted, not pruned."
+    },
+    "tyrant": {
+      "name": "The Tyrant",
+      "title": "The Embodiment of Absolute Power",
+      "description": "You rule through force and intimidation. There is no compromise — your will is law. You believe in order through fear, and only the strong deserve to lead.",
+      "traits": ["Overwhelming Presence", "Decisiveness", "Ruthlessness", "Leadership", "Ambition"],
+      "quote": "Only those who can bear the weight of the crown deserve to wear it."
+    },
+    "trickster": {
+      "name": "The Trickster",
+      "title": "The Maestro of Chaos",
+      "description": "You shine in unpredictable chaos. Rules exist to be broken, and seriousness is your enemy. You turn everything into a game — and you always win.",
+      "traits": ["Unpredictable", "Witty", "Adaptable", "Creative", "Mischievous"],
+      "quote": "When the world burns, the most beautiful thing is the flame itself."
+    },
+    "fallen": {
+      "name": "The Fallen Hero",
+      "title": "The Tragic Protagonist",
+      "description": "You once fought for justice. But betrayal and loss changed you. Behind your ruthlessness lies the idealism of your past — and that's what makes you the most dangerous villain of all.",
+      "traits": ["Tragic Past", "Cold Logic", "Empathy", "Brutal Resolve", "Duality"],
+      "quote": "The world creates heroes, but it also creates villains."
+    }
+  },
+  "share": {
+    "title": "Share Your Result",
+    "text": "My villain type is: {type}! What type of villain are you?",
+    "copy": "Copy Link",
+    "copied": "Copied!",
+    "copyFail": "Copy failed"
+  }
+}

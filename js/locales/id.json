@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Kamu Tipe Penjahat yang Mana?",
+    "description": "Temukan arketipe penjahatmu melalui 10 pertanyaan skenario. Dalang, Si Pemikat, Pemberontak, Tiran, Penipu, atau Pahlawan yang Jatuh — kamu yang mana?"
+  },
+  "a11y": {
+    "skipLink": "Langsung ke konten utama"
+  },
+  "intro": {
+    "title": "Kamu Tipe Penjahat yang Mana?",
+    "subtitle": "10 skenario untuk mengungkap kegelapan dalam dirimu",
+    "start": "Mulai Tes",
+    "questionCount": "10 pertanyaan · sekitar 2 menit"
+  },
+  "quiz": {
+    "q1": {
+      "question": "Kamu memimpin organisasi rahasia. Kamu baru tahu ada pengkhianat di dalam. Apa yang kamu lakukan?",
+      "a": "Diam-diam mengumpulkan informasi dan memasang jebakan agar pengkhianat mengungkapkan diri",
+      "b": "Bicara dengan setiap anggota secara pribadi, pura-pura percaya sambil menggali informasi",
+      "c": "Pengkhianat tidak penting — masalah sebenarnya adalah sistem yang korup",
+      "d": "Segera menghukum tersangka untuk memberi peringatan kepada yang lain"
+    },
+    "q2": {
+      "question": "Musuhmu menemukan kelemahanmu. Bagaimana kamu merespons?",
+      "a": "Membesar-besarkan kelemahan untuk menyembunyikan yang asli. Kebingungan adalah perisai terbaik",
+      "b": "Aku sudah mengantisipasi skenario ini dan sudah punya langkah balasan",
+      "c": "Menerima kelemahan dan menunjukkan bahwa itu membuatku lebih kuat",
+      "d": "Mengubah musuh jadi sekutu dengan tawaran yang menarik"
+    },
+    "q3": {
+      "question": "Kamu mendapatkan kekuasaan absolut. Apa yang pertama kamu lakukan?",
+      "a": "Menghapus semua oposisi dan membangun ketertiban total",
+      "b": "Membuat orang mencintaiku. Pesona lebih tahan lama daripada ketakutan",
+      "c": "Menghancurkan sistem korup sepenuhnya dan membangun tatanan baru",
+      "d": "Membangun sistem untuk mengendalikan segalanya dari balik bayangan"
+    },
+    "q4": {
+      "question": "Rekan yang mengkhianatimu meminta maaf. Apa yang kamu lakukan?",
+      "a": "Pura-pura memaafkan, lalu eksekusi balas dendam yang lebih besar nanti. Waktu adalah segalanya",
+      "b": "Benar-benar memaafkan. Aku juga pernah mengkhianati seseorang",
+      "c": "Menghukum di depan umum sebagai contoh bagi yang lain",
+      "d": "Menganalisis motif pengkhianatan dan menggunakannya dalam strategiku"
+    },
+    "q5": {
+      "question": "Pahlawan berlutut di hadapanmu. Apa yang kamu katakan?",
+      "a": "\"Bangun. Kita di pihak yang sama — hanya metodenya berbeda.\"",
+      "b": "\"Lihat? Aturan dunia ini sudah busuk. Ayo ubah bersama.\"",
+      "c": "\"Menarik. Tapi ini baru permulaan.\"",
+      "d": "\"Aku pernah sepertimu. Tapi dunia yang membuatku jadi seperti ini.\""
+    },
+    "q6": {
+      "question": "Tahap akhir rencana besarmu. Tapi muncul variabel tak terduga.",
+      "a": "Aku sudah punya lima rencana cadangan. Dalam catur, selalu prediksi langkah berikutnya",
+      "b": "Variabel atau bukan, terobos dengan kekuatan. Hambatan dibuat untuk dihancurkan",
+      "c": "Taklukkan variabel dengan pesona dan persuasi",
+      "d": "Variabel adalah peluang. Aku berkembang dalam kekacauan"
+    },
+    "q7": {
+      "question": "Markas rahasiamu ditemukan. Kamu punya 30 menit.",
+      "a": "Acak semua bukti. Semakin mereka menyelidiki, semakin bingung",
+      "b": "Biarkan mereka masuk. Tempat ini jebakan",
+      "c": "Aku marah. Biarkan mereka datang. Aku hadapi langsung",
+      "d": "Dengan tenang ambil yang penting dan pergi. Hidup untuk hari esok"
+    },
+    "q8": {
+      "question": "Kamu perlu merekrut sekutu baru. Metode apa yang kamu pilih?",
+      "a": "Mendekati secara personal dan memanfaatkan impian dan hasrat mereka",
+      "b": "Menemukan yang tertindas dan berpidato: \"Mari berjuang bersama\"",
+      "c": "Mengumpulkan kelemahan dan rahasia semua orang untuk membangun jaringan intelijen",
+      "d": "Tidak merekrut siapa pun. Bekerja sendiri lebih baik. Kepercayaan adalah kemewahan"
+    },
+    "q9": {
+      "question": "Apa strategimu untuk konfrontasi terakhir?",
+      "a": "Menghancurkan dengan kekuatan api dan pasukan dalam serangan frontal total",
+      "b": "Menyerang dari sudut tak terduga. Metode yang tak bisa diprediksi siapa pun",
+      "c": "Membujuk tokoh kunci musuh untuk berganti pihak",
+      "d": "Membuktikan bahwa perjuangan musuh cacat untuk menghancurkan semangat mereka"
+    },
+    "q10": {
+      "question": "Saat semua berakhir, bagaimana kamu ingin dikenang?",
+      "a": "\"Dia pernah jadi pahlawan. Tapi dunia mengkhianatinya.\"",
+      "b": "\"Tak ada yang pernah tahu rencana aslinya. Semua berjalan sesuai desainnya.\"",
+      "c": "\"Tak ada yang berani menentangnya.\"",
+      "d": "\"Apakah dia nyata atau ilusi? Tak ada yang tahu.\""
+    }
+  },
+  "result": {
+    "yourType": "TIPE PENJAHATMU",
+    "powerLevel": "LEVEL KEKUATAN JAHAT",
+    "breakdown": "Rincian Skor",
+    "share": "Bagikan Hasil",
+    "retry": "Tes Ulang"
+  },
+  "results": {
+    "mastermind": {
+      "name": "Sang Dalang",
+      "title": "Penguasa dari Balik Bayangan",
+      "description": "Kamu selalu berpikir sepuluh langkah ke depan. Kamu tak pernah bertindak langsung — semuanya mengalir sesuai rencanamu. Orang-orang bergerak di papan caturmu tanpa tahu kamu ada.",
+      "traits": ["Pemikiran strategis", "Kesabaran", "Pengumpulan informasi", "Kontrol emosi", "Visi jangka panjang"],
+      "quote": "Langkah terbaik adalah membuat lawanmu percaya itu pilihan mereka sendiri."
+    },
+    "charmer": {
+      "name": "Si Pemikat",
+      "title": "Manipulator yang Mempesona",
+      "description": "Kamu mengendalikan orang melalui karisma dan pesona. Kamu memerintah dengan daya tarik, bukan ketakutan, dan tak ada yang tahu niat aslimu. Semua mencintaimu — dan itulah jebakannya.",
+      "traits": ["Karisma", "Manipulasi emosional", "Keterampilan sosial", "Empati", "Dualitas"],
+      "quote": "Orang memberikan segalanya pada seseorang yang membuat mereka merasa dipahami."
+    },
+    "rebel": {
+      "name": "Pemberontak",
+      "title": "Penghancur Sistem",
+      "description": "Kamu anti-hero yang berjuang menghancurkan sistem korup. Metode mungkin ekstrem, tapi perjuanganmu lebih murni dari siapa pun. Kamu tahu revolusi tak bisa dilakukan dengan tangan bersih.",
+      "traits": ["Berprinsip", "Pemberontak", "Keadilan", "Radikal", "Karismatik"],
+      "quote": "Pohon yang busuk harus dicabut dari akar, bukan dipangkas."
+    },
+    "tyrant": {
+      "name": "Sang Tiran",
+      "title": "Perwujudan Kekuasaan Absolut",
+      "description": "Kamu memerintah dengan kekuatan dan intimidasi. Tak ada kompromi — kehendakmu adalah hukum. Kamu percaya pada ketertiban melalui ketakutan, dan hanya yang kuat yang layak memimpin.",
+      "traits": ["Kehadiran yang mengintimidasi", "Ketegasan", "Tanpa ampun", "Kepemimpinan", "Ambisi"],
+      "quote": "Hanya yang mampu menanggung beban mahkota yang layak memakainya."
+    },
+    "trickster": {
+      "name": "Si Penipu",
+      "title": "Maestro Kekacauan",
+      "description": "Kamu bersinar dalam kekacauan yang tak terduga. Aturan ada untuk dilanggar, dan keseriusan adalah musuhmu. Kamu mengubah segalanya jadi permainan — dan selalu menang.",
+      "traits": ["Tak terduga", "Cerdik", "Adaptif", "Kreatif", "Nakal"],
+      "quote": "Saat dunia terbakar, yang paling indah adalah apinya sendiri."
+    },
+    "fallen": {
+      "name": "Pahlawan yang Jatuh",
+      "title": "Protagonis Tragis",
+      "description": "Kamu pernah berjuang untuk keadilan. Tapi pengkhianatan dan kehilangan mengubahmu. Di balik kekejamanmu tersembunyi idealisme masa lalu — dan itulah yang membuatmu menjadi penjahat paling berbahaya.",
+      "traits": ["Masa lalu tragis", "Logika dingin", "Empati", "Tekad brutal", "Dualitas"],
+      "quote": "Dunia menciptakan pahlawan, tapi juga menciptakan penjahat."
+    }
+  },
+  "share": {
+    "title": "Bagikan Hasil",
+    "text": "Tipe penjahatku adalah: {type}! Kamu tipe penjahat yang mana?",
+    "copy": "Salin tautan",
+    "copied": "Disalin!",
+    "copyFail": "Gagal menyalin"
+  }
+}

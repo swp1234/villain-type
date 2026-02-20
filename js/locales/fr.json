@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Quel type de méchant es-tu ?",
+    "description": "Découvre ton archétype de méchant avec 10 questions scénarisées. Cerveau, Charmeur, Rebelle, Tyran, Farceur ou Héros Déchu — lequel es-tu ?"
+  },
+  "a11y": {
+    "skipLink": "Aller au contenu principal"
+  },
+  "intro": {
+    "title": "Quel type de méchant es-tu ?",
+    "subtitle": "10 scénarios pour révéler l'obscurité qui sommeille en toi",
+    "start": "Commencer le test",
+    "questionCount": "10 questions · environ 2 min"
+  },
+  "quiz": {
+    "q1": {
+      "question": "Tu diriges une organisation secrète. Tu apprends qu'il y a un traître parmi vous. Que fais-tu ?",
+      "a": "Collecter discrètement des informations et tendre un piège pour que le traître se démasque",
+      "b": "Parler à chaque membre en privé, feignant la confiance tout en extrayant des informations",
+      "c": "Le traître n'a pas d'importance — le vrai problème est le système corrompu lui-même",
+      "d": "Punir immédiatement les suspects pour avertir les autres"
+    },
+    "q2": {
+      "question": "Ton ennemi a découvert ton point faible. Comment réagis-tu ?",
+      "a": "Exagérer la faiblesse pour cacher la vraie. La confusion est le meilleur bouclier",
+      "b": "J'ai anticipé ce scénario depuis longtemps et j'ai déjà des contre-mesures",
+      "c": "Accepter la faiblesse et montrer qu'elle m'a rendu plus fort",
+      "d": "Transformer l'ennemi en allié avec une offre charmante"
+    },
+    "q3": {
+      "question": "Tu as obtenu le pouvoir absolu. Que fais-tu en premier ?",
+      "a": "Éliminer toute opposition et établir un ordre total",
+      "b": "Faire en sorte que les gens m'aiment. Le charme dure plus longtemps que la peur",
+      "c": "Détruire complètement le système corrompu et en bâtir un nouveau",
+      "d": "Construire un système pour tout contrôler depuis l'ombre"
+    },
+    "q4": {
+      "question": "Un collègue qui t'a trahi demande pardon. Que fais-tu ?",
+      "a": "Faire semblant de pardonner, puis exécuter une vengeance bien plus grande. Le timing est tout",
+      "b": "Pardonner sincèrement. Moi aussi j'ai trahi quelqu'un autrefois",
+      "c": "Le punir publiquement pour l'exemple",
+      "d": "Analyser le motif de la trahison et l'utiliser dans ma stratégie"
+    },
+    "q5": {
+      "question": "Le héros s'agenouille devant toi. Que dis-tu ?",
+      "a": "\"Lève-toi. Nous sommes du même côté — juste avec des méthodes différentes.\"",
+      "b": "\"Tu vois ? Les règles de ce monde sont pourries. Changeons-les ensemble.\"",
+      "c": "\"Amusant. Mais ce n'est que le début.\"",
+      "d": "\"J'étais comme toi autrefois. Mais le monde m'a transformé.\""
+    },
+    "q6": {
+      "question": "C'est l'étape finale de ton grand plan. Mais une variable inattendue apparaît.",
+      "a": "J'ai déjà cinq plans de secours. Aux échecs, on prédit toujours le coup suivant",
+      "b": "Variable ou pas, je fonce avec la force. Les obstacles sont faits pour être écrasés",
+      "c": "Gagner la variable avec charme et persuasion",
+      "d": "Une variable est une opportunité. Je m'épanouis dans le chaos"
+    },
+    "q7": {
+      "question": "Ta cachette a été découverte. Tu as 30 minutes.",
+      "a": "Mélanger toutes les preuves au hasard. Plus ils enquêtent, plus ils sont confus",
+      "b": "Les laisser entrer. Cet endroit est un piège",
+      "c": "Je suis furieux. Qu'ils viennent. Je les affronte de front",
+      "d": "Prendre calmement l'essentiel et partir. Vivre pour se battre un autre jour"
+    },
+    "q8": {
+      "question": "Tu dois recruter de nouveaux alliés. Quelle méthode choisis-tu ?",
+      "a": "Approcher personnellement et exploiter leurs rêves et désirs",
+      "b": "Trouver les opprimés et faire un discours : « Battons-nous ensemble »",
+      "c": "Rassembler les faiblesses et secrets de chacun pour construire un réseau d'information",
+      "d": "Ne recruter personne. Travailler seul est mieux. La confiance est un luxe"
+    },
+    "q9": {
+      "question": "Quelle est ta stratégie pour la confrontation finale ?",
+      "a": "Submerger avec la puissance de feu et les forces dans un assaut frontal",
+      "b": "Frapper d'un angle inattendu. Une méthode que personne ne pouvait prévoir",
+      "c": "Persuader le personnage clé de l'ennemi de changer de camp",
+      "d": "Prouver que la cause de l'ennemi est erronée pour briser leur moral"
+    },
+    "q10": {
+      "question": "Quand tout sera fini, comment veux-tu qu'on se souvienne de toi ?",
+      "a": "\"Il était un héros autrefois. Mais le monde l'a trahi.\"",
+      "b": "\"Personne n'a jamais connu son vrai plan. Tout s'est passé selon son dessein.\"",
+      "c": "\"Personne n'osait le défier.\"",
+      "d": "\"Était-il réel ou une illusion ? Personne ne le sait.\""
+    }
+  },
+  "result": {
+    "yourType": "TON TYPE DE MÉCHANT",
+    "powerLevel": "NIVEAU DE POUVOIR MALÉFIQUE",
+    "breakdown": "Détail des scores",
+    "share": "Partager le résultat",
+    "retry": "Refaire le test"
+  },
+  "results": {
+    "mastermind": {
+      "name": "Le Cerveau",
+      "title": "Le Marionnettiste de l'Ombre",
+      "description": "Tu penses toujours dix coups d'avance. Tu n'agis jamais directement — tout coule selon ton plan. Les gens se déplacent sur ton échiquier sans même savoir que tu existes.",
+      "traits": ["Pensée stratégique", "Patience", "Collecte d'information", "Contrôle émotionnel", "Vision à long terme"],
+      "quote": "Le meilleur coup est de faire croire à ton adversaire que c'était son choix."
+    },
+    "charmer": {
+      "name": "Le Charmeur",
+      "title": "Le Manipulateur Séducteur",
+      "description": "Tu contrôles les gens par le charisme et le charme. Tu gouvernes par la fascination, pas par la peur, et personne ne connaît tes véritables intentions. Tout le monde t'aime — et c'est exactement le piège.",
+      "traits": ["Charisme", "Manipulation émotionnelle", "Compétences sociales", "Empathie", "Dualité"],
+      "quote": "Les gens donnent tout à celui qui leur donne le sentiment d'être compris."
+    },
+    "rebel": {
+      "name": "Le Rebelle",
+      "title": "Le Destructeur de Systèmes",
+      "description": "Tu es un anti-héros qui se bat pour détruire les systèmes corrompus. Tes méthodes peuvent être extrêmes, mais ta cause est plus pure que celle de quiconque. Tu sais que les révolutions ne se font pas avec des mains propres.",
+      "traits": ["Principes", "Révolte", "Justice", "Radicalisme", "Charisme"],
+      "quote": "Un arbre pourri doit être déraciné, pas élagué."
+    },
+    "tyrant": {
+      "name": "Le Tyran",
+      "title": "L'Incarnation du Pouvoir Absolu",
+      "description": "Tu gouvernes par la force et l'intimidation. Il n'y a pas de compromis — ta volonté est la loi. Tu crois à l'ordre par la peur, et seuls les forts méritent de diriger.",
+      "traits": ["Présence écrasante", "Détermination", "Cruauté", "Leadership", "Ambition"],
+      "quote": "Seul celui qui peut supporter le poids de la couronne mérite de la porter."
+    },
+    "trickster": {
+      "name": "Le Farceur",
+      "title": "Le Maestro du Chaos",
+      "description": "Tu brilles dans le chaos imprévisible. Les règles existent pour être brisées, et le sérieux est ton ennemi. Tu transformes tout en jeu — et tu gagnes toujours.",
+      "traits": ["Imprévisible", "Spirituel", "Adaptable", "Créatif", "Espiègle"],
+      "quote": "Quand le monde brûle, la plus belle chose est la flamme elle-même."
+    },
+    "fallen": {
+      "name": "Le Héros Déchu",
+      "title": "Le Protagoniste Tragique",
+      "description": "Tu as combattu pour la justice autrefois. Mais la trahison et la perte t'ont changé. Derrière ta cruauté se cache l'idéalisme de ton passé — et c'est ce qui fait de toi le méchant le plus dangereux.",
+      "traits": ["Passé tragique", "Logique froide", "Empathie", "Résolution brutale", "Dualité"],
+      "quote": "Le monde crée des héros, mais il crée aussi des méchants."
+    }
+  },
+  "share": {
+    "title": "Partager le résultat",
+    "text": "Mon type de méchant est : {type} ! Quel type de méchant es-tu ?",
+    "copy": "Copier le lien",
+    "copied": "Copié !",
+    "copyFail": "Échec de la copie"
+  }
+}

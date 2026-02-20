@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Sen Nasıl Bir Kötü Karaktersin?",
+    "description": "10 senaryo sorusuyla kötü karakter arketipini keşfet. Beyinsel, Büyüleyici, Asi, Tiran, Düzenbaz veya Düşmüş Kahraman — hangisisin?"
+  },
+  "a11y": {
+    "skipLink": "Ana içeriğe atla"
+  },
+  "intro": {
+    "title": "Sen Nasıl Bir Kötü Karaktersin?",
+    "subtitle": "10 senaryoyla içindeki karanlığı ortaya çıkar",
+    "start": "Teste Başla",
+    "questionCount": "10 soru · yaklaşık 2 dk"
+  },
+  "quiz": {
+    "q1": {
+      "question": "Gizli bir örgütün liderisin. İçinizde bir hain olduğunu öğrendin. Ne yaparsın?",
+      "a": "Sessizce bilgi topla ve hainin kendini ele vermesi için tuzak kur",
+      "b": "Her üyeyle özel olarak konuş, güven gösterirken bilgi çıkar",
+      "c": "Hain önemli değil — asıl sorun bozuk sistemin kendisi",
+      "d": "Şüphelileri hemen cezalandır, geri kalanlara uyarı gönder"
+    },
+    "q2": {
+      "question": "Düşmanın zayıf noktanı keşfetti. Nasıl karşılık verirsin?",
+      "a": "Zayıflığı abartarak gerçek olanı gizle. Kafa karışıklığı en iyi kalkandır",
+      "b": "Bu senaryoyu çoktan öngördüm ve karşı önlemlerimi aldım",
+      "c": "Zayıflığı kabul et ve bunun beni daha güçlü yaptığını göster",
+      "d": "Çekici bir teklifle düşmanı müttefik yap"
+    },
+    "q3": {
+      "question": "Mutlak güç elde ettin. İlk ne yaparsın?",
+      "a": "Tüm muhalefeti yok et ve tam düzen kur",
+      "b": "İnsanların beni sevmesini sağla. Cazibe korkudan daha kalıcıdır",
+      "c": "Bozuk sistemi tamamen yık ve yeni bir düzen kur",
+      "d": "Gölgelerden her şeyi kontrol eden bir sistem inşa et"
+    },
+    "q4": {
+      "question": "Seni ihanete uğratan meslektaşın af diliyor. Ne yaparsın?",
+      "a": "Affediyormuş gibi yap, sonra daha büyük bir intikam uygula. Zamanlama her şeydir",
+      "b": "Gerçekten affet. Ben de birini ihanete uğratmıştım",
+      "c": "Alenen cezalandır, diğerlerine ibret olsun",
+      "d": "İhanetin nedenini analiz et ve stratejinde kullan"
+    },
+    "q5": {
+      "question": "Kahraman önünde diz çöktü. Ne dersin?",
+      "a": "\"Kalk. Aynı taraftayız — sadece yöntemlerimiz farklı.\"",
+      "b": "\"Gördün mü? Bu dünyanın kuralları çürümüş. Birlikte değiştirelim.\"",
+      "c": "\"İlginç. Ama bu daha başlangıç.\"",
+      "d": "\"Ben de bir zamanlar senin gibiydim. Ama dünya beni böyle yaptı.\""
+    },
+    "q6": {
+      "question": "Büyük planının son aşaması. Ama beklenmedik bir değişken ortaya çıktı.",
+      "a": "Zaten beş yedek planım var. Satrançta her zaman sonraki hamleyi tahmin et",
+      "b": "Değişken olsun olmasın, güçle ilerle. Engeller ezilmek içindir",
+      "c": "Değişkeni cazibe ve ikna ile kazanmaya çalış",
+      "d": "Değişken bir fırsattır. Kaosta gelişirim"
+    },
+    "q7": {
+      "question": "Sığınağın keşfedildi. 30 dakikan var.",
+      "a": "Tüm kanıtları rastgele karıştır. Ne kadar araştırırlarsa o kadar karışırlar",
+      "b": "İçeri girmelerine izin ver. Burası bir tuzak",
+      "c": "Öfkeliyim. Gelsinler. Yüz yüze karşılarım",
+      "d": "Sakin ol, önemli olanları al ve git. Başka bir gün savaşmak için yaşa"
+    },
+    "q8": {
+      "question": "Yeni müttefikler toplamalısın. Hangi yöntemi seçersin?",
+      "a": "Kişisel olarak yaklaş ve hayallerini, arzularını kullan",
+      "b": "Ezilenleri bul ve \"Birlikte savaşalım\" diye konuşma yap",
+      "c": "Herkesin zayıflıklarını ve sırlarını topla, istihbarat ağı kur",
+      "d": "Kimseyi toplama. Yalnız çalışmak daha iyi. Güven lükstür"
+    },
+    "q9": {
+      "question": "Son karşılaşma için stratejin ne?",
+      "a": "Ateş gücü ve kuvvetlerle tam cepheden saldır",
+      "b": "Beklenmedik bir yönden saldır. Kimsenin tahmin edemeyeceği bir yöntem",
+      "c": "Düşmanın kilit figürünü taraf değiştirmeye ikna et",
+      "d": "Düşmanın davasının hatalı olduğunu kanıtla ve morallerini çökert"
+    },
+    "q10": {
+      "question": "Her şey bittiğinde nasıl hatırlanmak istersin?",
+      "a": "\"O bir zamanlar kahramandı. Ama dünya ona ihanet etti.\"",
+      "b": "\"Kimse gerçek planını bilmiyordu. Her şey onun tasarımına göre gitti.\"",
+      "c": "\"Kimse ona karşı çıkmaya cesaret edemezdi.\"",
+      "d": "\"O gerçek miydi yoksa bir illüzyon mu? Kimse bilmiyor.\""
+    }
+  },
+  "result": {
+    "yourType": "KÖTÜ KARAKTER TİPİN",
+    "powerLevel": "KÖTÜLÜK GÜÇ SEVİYESİ",
+    "breakdown": "Puan Dağılımı",
+    "share": "Sonucu Paylaş",
+    "retry": "Tekrar Dene"
+  },
+  "results": {
+    "mastermind": {
+      "name": "Beyinsel",
+      "title": "Gölgelerin Kuklacısı",
+      "description": "Her zaman on adım ilerisini düşünürsün. Doğrudan hareket etmezsin — her şey planına göre akar. İnsanlar satranç tahtanda senin varlığını bilmeden hareket eder.",
+      "traits": ["Stratejik düşünce", "Sabır", "İstihbarat toplama", "Duygusal kontrol", "Uzun vadeli vizyon"],
+      "quote": "En iyi hamle, rakibinin kendi seçimi olduğuna inandırmaktır."
+    },
+    "charmer": {
+      "name": "Büyüleyici",
+      "title": "Baştan Çıkarıcı Manipülatör",
+      "description": "İnsanları karizma ve çekicilikle kontrol edersin. Korkuyla değil, büyüyle yönetirsin ve gerçek niyetini kimse bilmez. Herkes seni sever — ve bu tam olarak tuzaktır.",
+      "traits": ["Karizma", "Duygusal manipülasyon", "Sosyal beceriler", "Empati", "İkilik"],
+      "quote": "İnsanlar kendilerini anlayan birine her şeyini verir."
+    },
+    "rebel": {
+      "name": "Asi",
+      "title": "Sistemin Yıkıcısı",
+      "description": "Bozuk sistemleri yıkmak için savaşan bir anti-kahramansın. Yöntemlerin aşırı olabilir ama davan herkesinkinden daha saf. Devrimlerin temiz ellerle yapılamayacağını bilirsin.",
+      "traits": ["İlkeli", "Asi", "Adalet odaklı", "Radikal", "Karizmatik"],
+      "quote": "Çürük ağaç budanmaz, kökünden sökülür."
+    },
+    "tyrant": {
+      "name": "Tiran",
+      "title": "Mutlak Gücün Somutlaşması",
+      "description": "Güç ve gözdağıyla yönetirsin. Uzlaşma yok — iradenin kanundur. Korku yoluyla düzene inanırsın ve sadece güçlüler liderlik etmeyi hak eder.",
+      "traits": ["Ezici varlık", "Kararlılık", "Acımasızlık", "Liderlik", "Hırs"],
+      "quote": "Tacın ağırlığını taşıyabilenler onu takmayı hak eder."
+    },
+    "trickster": {
+      "name": "Düzenbaz",
+      "title": "Kaosun Maestrosu",
+      "description": "Öngörülemeyen kaosta parlarsın. Kurallar çiğnenmek için vardır ve ciddiyet senin düşmanındır. Her şeyi oyuna çevirirsin — ve her zaman kazanan sensin.",
+      "traits": ["Öngörülemez", "Hazırcevap", "Uyumlu", "Yaratıcı", "Yaramaz"],
+      "quote": "Dünya yanarken en güzel şey alevlerin kendisidir."
+    },
+    "fallen": {
+      "name": "Düşmüş Kahraman",
+      "title": "Trajik Protagonist",
+      "description": "Bir zamanlar adalet için savaştın. Ama ihanet ve kayıp seni değiştirdi. Acımasızlığının arkasında geçmişin idealizmi yatıyor — ve bu seni en tehlikeli kötü karakter yapıyor.",
+      "traits": ["Trajik geçmiş", "Soğuk mantık", "Empati", "Acımasız kararlılık", "İkilik"],
+      "quote": "Dünya kahramanları yaratır, ama kötüleri de dünya yaratır."
+    }
+  },
+  "share": {
+    "title": "Sonucu Paylaş",
+    "text": "Kötü karakter tipim: {type}! Sen nasıl bir kötü karaktersin?",
+    "copy": "Bağlantıyı kopyala",
+    "copied": "Kopyalandı!",
+    "copyFail": "Kopyalama başarısız"
+  }
+}

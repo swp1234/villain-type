@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Welcher Schurkentyp bist du?",
+    "description": "Entdecke deinen Schurken-Archetyp mit 10 Szenario-Fragen. Mastermind, Charmeur, Rebell, Tyrann, Trickster oder Gefallener Held — wer bist du?"
+  },
+  "a11y": {
+    "skipLink": "Zum Hauptinhalt springen"
+  },
+  "intro": {
+    "title": "Welcher Schurkentyp bist du?",
+    "subtitle": "10 Szenarien enthüllen die Dunkelheit in dir",
+    "start": "Test starten",
+    "questionCount": "10 Fragen · ca. 2 Min."
+  },
+  "quiz": {
+    "q1": {
+      "question": "Du führst eine geheime Organisation. Du erfährst, dass es einen Verräter gibt. Was tust du?",
+      "a": "Leise Informationen sammeln und eine Falle stellen, damit sich der Verräter selbst entlarvt",
+      "b": "Mit jedem Mitglied privat sprechen, Vertrauen vortäuschen und dabei Informationen gewinnen",
+      "c": "Der Verräter ist unwichtig — das eigentliche Problem ist das korrupte System selbst",
+      "d": "Sofort die Verdächtigen bestrafen, um den Rest zu warnen"
+    },
+    "q2": {
+      "question": "Dein Feind hat deine Schwäche entdeckt. Wie reagierst du?",
+      "a": "Die Schwäche übertreiben, um die echte zu verbergen. Verwirrung ist der beste Schild",
+      "b": "Ich habe dieses Szenario längst vorhergesehen und Gegenmaßnahmen vorbereitet",
+      "c": "Die Schwäche akzeptieren und zeigen, dass sie mich stärker gemacht hat",
+      "d": "Den Feind mit einem charmanten Angebot zum Verbündeten machen"
+    },
+    "q3": {
+      "question": "Du hast absolute Macht erlangt. Was tust du zuerst?",
+      "a": "Alle Opposition beseitigen und totale Ordnung herstellen",
+      "b": "Die Menschen dazu bringen, mich zu lieben. Charme hält länger als Angst",
+      "c": "Das korrupte System komplett zerstören und eine neue Ordnung aufbauen",
+      "d": "Ein System aufbauen, um alles aus dem Schatten zu kontrollieren"
+    },
+    "q4": {
+      "question": "Ein Kollege, der dich verraten hat, bittet um Vergebung. Was tust du?",
+      "a": "So tun als ob ich vergebe, dann später eine viel größere Rache ausführen. Timing ist alles",
+      "b": "Aufrichtig vergeben. Ich habe auch schon jemanden verraten",
+      "c": "Öffentlich bestrafen als Beispiel für andere",
+      "d": "Das Motiv des Verrats analysieren und in meine Strategie einbauen"
+    },
+    "q5": {
+      "question": "Der Held kniet vor dir. Was sagst du?",
+      "a": "\"Steh auf. Wir sind auf derselben Seite — nur mit anderen Methoden.\"",
+      "b": "\"Siehst du? Die Regeln dieser Welt sind verdorben. Lass sie uns gemeinsam ändern.\"",
+      "c": "\"Amüsant. Aber das ist erst der Anfang.\"",
+      "d": "\"Ich war einst wie du. Aber die Welt hat mich so gemacht.\""
+    },
+    "q6": {
+      "question": "Es ist die letzte Phase deines großen Plans. Aber eine unerwartete Variable taucht auf.",
+      "a": "Ich habe bereits fünf Backup-Pläne. Im Schach sagt man immer den nächsten Zug voraus",
+      "b": "Variable hin oder her — mit Kraft durchbrechen. Hindernisse sind zum Zermalmen da",
+      "c": "Die Variable mit Charme und Überzeugung gewinnen",
+      "d": "Eine Variable ist eine Chance. Ich gedeihe im Chaos"
+    },
+    "q7": {
+      "question": "Dein Versteck wurde entdeckt. Du hast 30 Minuten.",
+      "a": "Alle Beweise zufällig durchmischen. Je mehr sie ermitteln, desto verwirrter werden sie",
+      "b": "Sie reinlassen. Dieser Ort ist eine Falle",
+      "c": "Ich bin wütend. Sollen sie kommen. Ich stelle mich ihnen direkt",
+      "d": "Ruhig das Wichtige mitnehmen und gehen. Überleben für einen anderen Tag"
+    },
+    "q8": {
+      "question": "Du musst neue Verbündete rekrutieren. Welche Methode wählst du?",
+      "a": "Persönlich herangehen und ihre Träume und Wünsche ausnutzen",
+      "b": "Die Unterdrückten finden und eine Rede halten: \"Lasst uns gemeinsam kämpfen\"",
+      "c": "Schwächen und Geheimnisse aller sammeln, um ein Nachrichtennetz aufzubauen",
+      "d": "Niemanden rekrutieren. Allein arbeiten ist besser. Vertrauen ist Luxus"
+    },
+    "q9": {
+      "question": "Was ist deine Strategie für die finale Konfrontation?",
+      "a": "Mit überwältigender Feuerkraft und Truppen frontal angreifen",
+      "b": "Aus unerwarteter Richtung zuschlagen. Eine Methode, die niemand vorhersehen kann",
+      "c": "Die Schlüsselfigur des Feindes überzeugen, die Seiten zu wechseln",
+      "d": "Beweisen, dass die Sache des Feindes fehlerhaft ist, um ihre Moral zu brechen"
+    },
+    "q10": {
+      "question": "Wenn alles vorbei ist — wie willst du in Erinnerung bleiben?",
+      "a": "\"Er war einst ein Held. Aber die Welt hat ihn verraten.\"",
+      "b": "\"Niemand kannte jemals seinen wahren Plan. Alles lief nach seinem Entwurf.\"",
+      "c": "\"Niemand wagte es, sich ihm zu widersetzen.\"",
+      "d": "\"War er real oder eine Illusion? Niemand weiß es.\""
+    }
+  },
+  "result": {
+    "yourType": "DEIN SCHURKENTYP",
+    "powerLevel": "BÖSES KRAFTLEVEL",
+    "breakdown": "Punkteaufschlüsselung",
+    "share": "Ergebnis teilen",
+    "retry": "Nochmal testen"
+  },
+  "results": {
+    "mastermind": {
+      "name": "Das Mastermind",
+      "title": "Der Schattenlenker",
+      "description": "Du denkst immer zehn Schritte voraus. Du handelst nie direkt — alles fließt nach deinem Plan. Menschen bewegen sich auf deinem Schachbrett, ohne zu wissen, dass du existierst.",
+      "traits": ["Strategisches Denken", "Geduld", "Informationsbeschaffung", "Emotionale Kontrolle", "Langfristige Vision"],
+      "quote": "Der beste Zug ist, deinen Gegner glauben zu lassen, es war seine Wahl."
+    },
+    "charmer": {
+      "name": "Der Charmeur",
+      "title": "Der Verführerische Manipulator",
+      "description": "Du kontrollierst Menschen durch Charisma und Charme. Du herrschst durch Faszination, nicht durch Angst, und niemand kennt deine wahren Absichten. Alle lieben dich — und genau das ist die Falle.",
+      "traits": ["Charisma", "Emotionale Manipulation", "Soziale Kompetenz", "Empathie", "Dualität"],
+      "quote": "Menschen geben alles jemandem, der ihnen das Gefühl gibt, verstanden zu werden."
+    },
+    "rebel": {
+      "name": "Der Rebell",
+      "title": "Der Systemzerstörer",
+      "description": "Du bist ein Anti-Held, der korrupte Systeme niederreißt. Deine Methoden mögen extrem sein, aber deine Sache ist reiner als die aller anderen. Du weißt, dass Revolutionen nicht mit sauberen Händen gemacht werden.",
+      "traits": ["Prinzipientreu", "Aufsässig", "Gerechtigkeitssinn", "Radikal", "Charismatisch"],
+      "quote": "Ein fauler Baum muss entwurzelt werden, nicht beschnitten."
+    },
+    "tyrant": {
+      "name": "Der Tyrann",
+      "title": "Die Verkörperung Absoluter Macht",
+      "description": "Du herrschst durch Stärke und Einschüchterung. Es gibt keinen Kompromiss — dein Wille ist Gesetz. Du glaubst an Ordnung durch Furcht, und nur die Starken verdienen es zu führen.",
+      "traits": ["Überwältigende Präsenz", "Entschlossenheit", "Rücksichtslosigkeit", "Führung", "Ehrgeiz"],
+      "quote": "Nur wer das Gewicht der Krone tragen kann, verdient sie zu tragen."
+    },
+    "trickster": {
+      "name": "Der Trickster",
+      "title": "Der Maestro des Chaos",
+      "description": "Du glänzt im unvorhersehbaren Chaos. Regeln sind da, um gebrochen zu werden, und Ernst ist dein Feind. Du machst alles zum Spiel — und du gewinnst immer.",
+      "traits": ["Unberechenbar", "Schlagfertig", "Anpassungsfähig", "Kreativ", "Schelmisch"],
+      "quote": "Wenn die Welt brennt, ist das Schönste die Flamme selbst."
+    },
+    "fallen": {
+      "name": "Der Gefallene Held",
+      "title": "Der Tragische Protagonist",
+      "description": "Du hast einst für Gerechtigkeit gekämpft. Aber Verrat und Verlust haben dich verändert. Hinter deiner Rücksichtslosigkeit verbirgt sich der Idealismus deiner Vergangenheit — und das macht dich zum gefährlichsten Schurken.",
+      "traits": ["Tragische Vergangenheit", "Kalte Logik", "Empathie", "Brutale Entschlossenheit", "Dualität"],
+      "quote": "Die Welt erschafft Helden, aber sie erschafft auch Schurken."
+    }
+  },
+  "share": {
+    "title": "Ergebnis teilen",
+    "text": "Mein Schurkentyp ist: {type}! Welcher Schurkentyp bist du?",
+    "copy": "Link kopieren",
+    "copied": "Kopiert!",
+    "copyFail": "Kopieren fehlgeschlagen"
+  }
+}
