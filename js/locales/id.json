@@ -89,49 +89,87 @@
     "powerLevel": "LEVEL KEKUATAN JAHAT",
     "breakdown": "Rincian Skor",
     "share": "Bagikan Hasil",
-    "retry": "Tes Ulang"
+    "retry": "Tes Ulang",
+    "moreTests": "Jelajahi Tes Lainnya",
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki tipe penjahat yang sama denganmu"
   },
   "results": {
     "mastermind": {
       "name": "Sang Dalang",
       "title": "Penguasa dari Balik Bayangan",
       "description": "Kamu selalu berpikir sepuluh langkah ke depan. Kamu tak pernah bertindak langsung — semuanya mengalir sesuai rencanamu. Orang-orang bergerak di papan caturmu tanpa tahu kamu ada.",
-      "traits": ["Pemikiran strategis", "Kesabaran", "Pengumpulan informasi", "Kontrol emosi", "Visi jangka panjang"],
+      "traits": [
+        "Pemikiran strategis",
+        "Kesabaran",
+        "Pengumpulan informasi",
+        "Kontrol emosi",
+        "Visi jangka panjang"
+      ],
       "quote": "Langkah terbaik adalah membuat lawanmu percaya itu pilihan mereka sendiri."
     },
     "charmer": {
       "name": "Si Pemikat",
       "title": "Manipulator yang Mempesona",
       "description": "Kamu mengendalikan orang melalui karisma dan pesona. Kamu memerintah dengan daya tarik, bukan ketakutan, dan tak ada yang tahu niat aslimu. Semua mencintaimu — dan itulah jebakannya.",
-      "traits": ["Karisma", "Manipulasi emosional", "Keterampilan sosial", "Empati", "Dualitas"],
+      "traits": [
+        "Karisma",
+        "Manipulasi emosional",
+        "Keterampilan sosial",
+        "Empati",
+        "Dualitas"
+      ],
       "quote": "Orang memberikan segalanya pada seseorang yang membuat mereka merasa dipahami."
     },
     "rebel": {
       "name": "Pemberontak",
       "title": "Penghancur Sistem",
       "description": "Kamu anti-hero yang berjuang menghancurkan sistem korup. Metode mungkin ekstrem, tapi perjuanganmu lebih murni dari siapa pun. Kamu tahu revolusi tak bisa dilakukan dengan tangan bersih.",
-      "traits": ["Berprinsip", "Pemberontak", "Keadilan", "Radikal", "Karismatik"],
+      "traits": [
+        "Berprinsip",
+        "Pemberontak",
+        "Keadilan",
+        "Radikal",
+        "Karismatik"
+      ],
       "quote": "Pohon yang busuk harus dicabut dari akar, bukan dipangkas."
     },
     "tyrant": {
       "name": "Sang Tiran",
       "title": "Perwujudan Kekuasaan Absolut",
       "description": "Kamu memerintah dengan kekuatan dan intimidasi. Tak ada kompromi — kehendakmu adalah hukum. Kamu percaya pada ketertiban melalui ketakutan, dan hanya yang kuat yang layak memimpin.",
-      "traits": ["Kehadiran yang mengintimidasi", "Ketegasan", "Tanpa ampun", "Kepemimpinan", "Ambisi"],
+      "traits": [
+        "Kehadiran yang mengintimidasi",
+        "Ketegasan",
+        "Tanpa ampun",
+        "Kepemimpinan",
+        "Ambisi"
+      ],
       "quote": "Hanya yang mampu menanggung beban mahkota yang layak memakainya."
     },
     "trickster": {
       "name": "Si Penipu",
       "title": "Maestro Kekacauan",
       "description": "Kamu bersinar dalam kekacauan yang tak terduga. Aturan ada untuk dilanggar, dan keseriusan adalah musuhmu. Kamu mengubah segalanya jadi permainan — dan selalu menang.",
-      "traits": ["Tak terduga", "Cerdik", "Adaptif", "Kreatif", "Nakal"],
+      "traits": [
+        "Tak terduga",
+        "Cerdik",
+        "Adaptif",
+        "Kreatif",
+        "Nakal"
+      ],
       "quote": "Saat dunia terbakar, yang paling indah adalah apinya sendiri."
     },
     "fallen": {
       "name": "Pahlawan yang Jatuh",
       "title": "Protagonis Tragis",
       "description": "Kamu pernah berjuang untuk keadilan. Tapi pengkhianatan dan kehilangan mengubahmu. Di balik kekejamanmu tersembunyi idealisme masa lalu — dan itulah yang membuatmu menjadi penjahat paling berbahaya.",
-      "traits": ["Masa lalu tragis", "Logika dingin", "Empati", "Tekad brutal", "Dualitas"],
+      "traits": [
+        "Masa lalu tragis",
+        "Logika dingin",
+        "Empati",
+        "Tekad brutal",
+        "Dualitas"
+      ],
       "quote": "Dunia menciptakan pahlawan, tapi juga menciptakan penjahat."
     }
   },
@@ -141,5 +179,11 @@
     "copy": "Salin tautan",
     "copied": "Disalin!",
     "copyFail": "Gagal menyalin"
+  },
+  "related": {
+    "darkCore": "Inti Gelap",
+    "toxicTrait": "Sifat Toksik",
+    "villainOrigin": "Asal Penjahat",
+    "npcTest": "Tes NPC"
   }
 }

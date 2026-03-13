@@ -89,49 +89,87 @@
     "powerLevel": "KÖTÜLÜK GÜÇ SEVİYESİ",
     "breakdown": "Puan Dağılımı",
     "share": "Sonucu Paylaş",
-    "retry": "Tekrar Dene"
+    "retry": "Tekrar Dene",
+    "moreTests": "Daha Fazla Test Keşfet",
+    "percentileStat": "Katılımcıların yalnızca <strong>{percent}%</strong>'i senin kötü karakter tipine sahip"
   },
   "results": {
     "mastermind": {
       "name": "Beyinsel",
       "title": "Gölgelerin Kuklacısı",
       "description": "Her zaman on adım ilerisini düşünürsün. Doğrudan hareket etmezsin — her şey planına göre akar. İnsanlar satranç tahtanda senin varlığını bilmeden hareket eder.",
-      "traits": ["Stratejik düşünce", "Sabır", "İstihbarat toplama", "Duygusal kontrol", "Uzun vadeli vizyon"],
+      "traits": [
+        "Stratejik düşünce",
+        "Sabır",
+        "İstihbarat toplama",
+        "Duygusal kontrol",
+        "Uzun vadeli vizyon"
+      ],
       "quote": "En iyi hamle, rakibinin kendi seçimi olduğuna inandırmaktır."
     },
     "charmer": {
       "name": "Büyüleyici",
       "title": "Baştan Çıkarıcı Manipülatör",
       "description": "İnsanları karizma ve çekicilikle kontrol edersin. Korkuyla değil, büyüyle yönetirsin ve gerçek niyetini kimse bilmez. Herkes seni sever — ve bu tam olarak tuzaktır.",
-      "traits": ["Karizma", "Duygusal manipülasyon", "Sosyal beceriler", "Empati", "İkilik"],
+      "traits": [
+        "Karizma",
+        "Duygusal manipülasyon",
+        "Sosyal beceriler",
+        "Empati",
+        "İkilik"
+      ],
       "quote": "İnsanlar kendilerini anlayan birine her şeyini verir."
     },
     "rebel": {
       "name": "Asi",
       "title": "Sistemin Yıkıcısı",
       "description": "Bozuk sistemleri yıkmak için savaşan bir anti-kahramansın. Yöntemlerin aşırı olabilir ama davan herkesinkinden daha saf. Devrimlerin temiz ellerle yapılamayacağını bilirsin.",
-      "traits": ["İlkeli", "Asi", "Adalet odaklı", "Radikal", "Karizmatik"],
+      "traits": [
+        "İlkeli",
+        "Asi",
+        "Adalet odaklı",
+        "Radikal",
+        "Karizmatik"
+      ],
       "quote": "Çürük ağaç budanmaz, kökünden sökülür."
     },
     "tyrant": {
       "name": "Tiran",
       "title": "Mutlak Gücün Somutlaşması",
       "description": "Güç ve gözdağıyla yönetirsin. Uzlaşma yok — iradenin kanundur. Korku yoluyla düzene inanırsın ve sadece güçlüler liderlik etmeyi hak eder.",
-      "traits": ["Ezici varlık", "Kararlılık", "Acımasızlık", "Liderlik", "Hırs"],
+      "traits": [
+        "Ezici varlık",
+        "Kararlılık",
+        "Acımasızlık",
+        "Liderlik",
+        "Hırs"
+      ],
       "quote": "Tacın ağırlığını taşıyabilenler onu takmayı hak eder."
     },
     "trickster": {
       "name": "Düzenbaz",
       "title": "Kaosun Maestrosu",
       "description": "Öngörülemeyen kaosta parlarsın. Kurallar çiğnenmek için vardır ve ciddiyet senin düşmanındır. Her şeyi oyuna çevirirsin — ve her zaman kazanan sensin.",
-      "traits": ["Öngörülemez", "Hazırcevap", "Uyumlu", "Yaratıcı", "Yaramaz"],
+      "traits": [
+        "Öngörülemez",
+        "Hazırcevap",
+        "Uyumlu",
+        "Yaratıcı",
+        "Yaramaz"
+      ],
       "quote": "Dünya yanarken en güzel şey alevlerin kendisidir."
     },
     "fallen": {
       "name": "Düşmüş Kahraman",
       "title": "Trajik Protagonist",
       "description": "Bir zamanlar adalet için savaştın. Ama ihanet ve kayıp seni değiştirdi. Acımasızlığının arkasında geçmişin idealizmi yatıyor — ve bu seni en tehlikeli kötü karakter yapıyor.",
-      "traits": ["Trajik geçmiş", "Soğuk mantık", "Empati", "Acımasız kararlılık", "İkilik"],
+      "traits": [
+        "Trajik geçmiş",
+        "Soğuk mantık",
+        "Empati",
+        "Acımasız kararlılık",
+        "İkilik"
+      ],
       "quote": "Dünya kahramanları yaratır, ama kötüleri de dünya yaratır."
     }
   },
@@ -141,5 +179,11 @@
     "copy": "Bağlantıyı kopyala",
     "copied": "Kopyalandı!",
     "copyFail": "Kopyalama başarısız"
+  },
+  "related": {
+    "darkCore": "Karanlık Çekirdek",
+    "toxicTrait": "Toksik Özellik",
+    "villainOrigin": "Kötü Karakter Kökeni",
+    "npcTest": "NPC Testi"
   }
 }

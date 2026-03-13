@@ -89,49 +89,87 @@
     "powerLevel": "EVIL POWER LEVEL",
     "breakdown": "Score Breakdown",
     "share": "Share Result",
-    "retry": "Take Again"
+    "retry": "Take Again",
+    "moreTests": "Explore More Tests",
+    "percentileStat": "Only <strong>{percent}%</strong> of participants share your villain type"
   },
   "results": {
     "mastermind": {
       "name": "The Mastermind",
       "title": "The Shadow Puppeteer",
       "description": "You always think ten steps ahead. You never act directly — everything flows according to your plan. People move on your chessboard without even knowing you exist.",
-      "traits": ["Strategic Thinking", "Patience", "Intel Gathering", "Emotional Control", "Long-term Vision"],
+      "traits": [
+        "Strategic Thinking",
+        "Patience",
+        "Intel Gathering",
+        "Emotional Control",
+        "Long-term Vision"
+      ],
       "quote": "The greatest move is making your opponent believe it was their choice."
     },
     "charmer": {
       "name": "The Charmer",
       "title": "The Seductive Manipulator",
       "description": "You control people through charisma and charm. You rule through fascination, not fear, and no one ever knows your true intentions. Everyone loves you — and that's exactly the trap.",
-      "traits": ["Charisma", "Emotional Manipulation", "Social Skills", "Empathy", "Duality"],
+      "traits": [
+        "Charisma",
+        "Emotional Manipulation",
+        "Social Skills",
+        "Empathy",
+        "Duality"
+      ],
       "quote": "People give everything to someone who makes them feel understood."
     },
     "rebel": {
       "name": "The Rebel",
       "title": "The System Destroyer",
       "description": "You're an anti-hero fighting to tear down corrupt systems. Your methods may be extreme, but your cause is purer than anyone's. You know revolutions can't be made with clean hands.",
-      "traits": ["Principled", "Defiant", "Justice-driven", "Radical", "Charismatic"],
+      "traits": [
+        "Principled",
+        "Defiant",
+        "Justice-driven",
+        "Radical",
+        "Charismatic"
+      ],
       "quote": "A rotten tree needs to be uprooted, not pruned."
     },
     "tyrant": {
       "name": "The Tyrant",
       "title": "The Embodiment of Absolute Power",
       "description": "You rule through force and intimidation. There is no compromise — your will is law. You believe in order through fear, and only the strong deserve to lead.",
-      "traits": ["Overwhelming Presence", "Decisiveness", "Ruthlessness", "Leadership", "Ambition"],
+      "traits": [
+        "Overwhelming Presence",
+        "Decisiveness",
+        "Ruthlessness",
+        "Leadership",
+        "Ambition"
+      ],
       "quote": "Only those who can bear the weight of the crown deserve to wear it."
     },
     "trickster": {
       "name": "The Trickster",
       "title": "The Maestro of Chaos",
       "description": "You shine in unpredictable chaos. Rules exist to be broken, and seriousness is your enemy. You turn everything into a game — and you always win.",
-      "traits": ["Unpredictable", "Witty", "Adaptable", "Creative", "Mischievous"],
+      "traits": [
+        "Unpredictable",
+        "Witty",
+        "Adaptable",
+        "Creative",
+        "Mischievous"
+      ],
       "quote": "When the world burns, the most beautiful thing is the flame itself."
     },
     "fallen": {
       "name": "The Fallen Hero",
       "title": "The Tragic Protagonist",
       "description": "You once fought for justice. But betrayal and loss changed you. Behind your ruthlessness lies the idealism of your past — and that's what makes you the most dangerous villain of all.",
-      "traits": ["Tragic Past", "Cold Logic", "Empathy", "Brutal Resolve", "Duality"],
+      "traits": [
+        "Tragic Past",
+        "Cold Logic",
+        "Empathy",
+        "Brutal Resolve",
+        "Duality"
+      ],
       "quote": "The world creates heroes, but it also creates villains."
     }
   },
@@ -141,5 +179,11 @@
     "copy": "Copy Link",
     "copied": "Copied!",
     "copyFail": "Copy failed"
+  },
+  "related": {
+    "darkCore": "Dark Core",
+    "toxicTrait": "Toxic Trait",
+    "villainOrigin": "Villain Origin",
+    "npcTest": "NPC Test"
   }
 }

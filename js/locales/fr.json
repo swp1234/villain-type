@@ -89,49 +89,87 @@
     "powerLevel": "NIVEAU DE POUVOIR MALÉFIQUE",
     "breakdown": "Détail des scores",
     "share": "Partager le résultat",
-    "retry": "Refaire le test"
+    "retry": "Refaire le test",
+    "moreTests": "Découvrez plus de tests",
+    "percentileStat": "Seulement <strong>{percent}%</strong> des participants partagent votre type de méchant"
   },
   "results": {
     "mastermind": {
       "name": "Le Cerveau",
       "title": "Le Marionnettiste de l'Ombre",
       "description": "Tu penses toujours dix coups d'avance. Tu n'agis jamais directement — tout coule selon ton plan. Les gens se déplacent sur ton échiquier sans même savoir que tu existes.",
-      "traits": ["Pensée stratégique", "Patience", "Collecte d'information", "Contrôle émotionnel", "Vision à long terme"],
+      "traits": [
+        "Pensée stratégique",
+        "Patience",
+        "Collecte d'information",
+        "Contrôle émotionnel",
+        "Vision à long terme"
+      ],
       "quote": "Le meilleur coup est de faire croire à ton adversaire que c'était son choix."
     },
     "charmer": {
       "name": "Le Charmeur",
       "title": "Le Manipulateur Séducteur",
       "description": "Tu contrôles les gens par le charisme et le charme. Tu gouvernes par la fascination, pas par la peur, et personne ne connaît tes véritables intentions. Tout le monde t'aime — et c'est exactement le piège.",
-      "traits": ["Charisme", "Manipulation émotionnelle", "Compétences sociales", "Empathie", "Dualité"],
+      "traits": [
+        "Charisme",
+        "Manipulation émotionnelle",
+        "Compétences sociales",
+        "Empathie",
+        "Dualité"
+      ],
       "quote": "Les gens donnent tout à celui qui leur donne le sentiment d'être compris."
     },
     "rebel": {
       "name": "Le Rebelle",
       "title": "Le Destructeur de Systèmes",
       "description": "Tu es un anti-héros qui se bat pour détruire les systèmes corrompus. Tes méthodes peuvent être extrêmes, mais ta cause est plus pure que celle de quiconque. Tu sais que les révolutions ne se font pas avec des mains propres.",
-      "traits": ["Principes", "Révolte", "Justice", "Radicalisme", "Charisme"],
+      "traits": [
+        "Principes",
+        "Révolte",
+        "Justice",
+        "Radicalisme",
+        "Charisme"
+      ],
       "quote": "Un arbre pourri doit être déraciné, pas élagué."
     },
     "tyrant": {
       "name": "Le Tyran",
       "title": "L'Incarnation du Pouvoir Absolu",
       "description": "Tu gouvernes par la force et l'intimidation. Il n'y a pas de compromis — ta volonté est la loi. Tu crois à l'ordre par la peur, et seuls les forts méritent de diriger.",
-      "traits": ["Présence écrasante", "Détermination", "Cruauté", "Leadership", "Ambition"],
+      "traits": [
+        "Présence écrasante",
+        "Détermination",
+        "Cruauté",
+        "Leadership",
+        "Ambition"
+      ],
       "quote": "Seul celui qui peut supporter le poids de la couronne mérite de la porter."
     },
     "trickster": {
       "name": "Le Farceur",
       "title": "Le Maestro du Chaos",
       "description": "Tu brilles dans le chaos imprévisible. Les règles existent pour être brisées, et le sérieux est ton ennemi. Tu transformes tout en jeu — et tu gagnes toujours.",
-      "traits": ["Imprévisible", "Spirituel", "Adaptable", "Créatif", "Espiègle"],
+      "traits": [
+        "Imprévisible",
+        "Spirituel",
+        "Adaptable",
+        "Créatif",
+        "Espiègle"
+      ],
       "quote": "Quand le monde brûle, la plus belle chose est la flamme elle-même."
     },
     "fallen": {
       "name": "Le Héros Déchu",
       "title": "Le Protagoniste Tragique",
       "description": "Tu as combattu pour la justice autrefois. Mais la trahison et la perte t'ont changé. Derrière ta cruauté se cache l'idéalisme de ton passé — et c'est ce qui fait de toi le méchant le plus dangereux.",
-      "traits": ["Passé tragique", "Logique froide", "Empathie", "Résolution brutale", "Dualité"],
+      "traits": [
+        "Passé tragique",
+        "Logique froide",
+        "Empathie",
+        "Résolution brutale",
+        "Dualité"
+      ],
       "quote": "Le monde crée des héros, mais il crée aussi des méchants."
     }
   },
@@ -141,5 +179,11 @@
     "copy": "Copier le lien",
     "copied": "Copié !",
     "copyFail": "Échec de la copie"
+  },
+  "related": {
+    "darkCore": "Noyau sombre",
+    "toxicTrait": "Trait toxique",
+    "villainOrigin": "Origine du méchant",
+    "npcTest": "Test NPC"
   }
 }

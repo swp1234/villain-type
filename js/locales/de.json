@@ -89,49 +89,87 @@
     "powerLevel": "BÖSES KRAFTLEVEL",
     "breakdown": "Punkteaufschlüsselung",
     "share": "Ergebnis teilen",
-    "retry": "Nochmal testen"
+    "retry": "Nochmal testen",
+    "moreTests": "Weitere Tests entdecken",
+    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen deinen Schurkentyp"
   },
   "results": {
     "mastermind": {
       "name": "Das Mastermind",
       "title": "Der Schattenlenker",
       "description": "Du denkst immer zehn Schritte voraus. Du handelst nie direkt — alles fließt nach deinem Plan. Menschen bewegen sich auf deinem Schachbrett, ohne zu wissen, dass du existierst.",
-      "traits": ["Strategisches Denken", "Geduld", "Informationsbeschaffung", "Emotionale Kontrolle", "Langfristige Vision"],
+      "traits": [
+        "Strategisches Denken",
+        "Geduld",
+        "Informationsbeschaffung",
+        "Emotionale Kontrolle",
+        "Langfristige Vision"
+      ],
       "quote": "Der beste Zug ist, deinen Gegner glauben zu lassen, es war seine Wahl."
     },
     "charmer": {
       "name": "Der Charmeur",
       "title": "Der Verführerische Manipulator",
       "description": "Du kontrollierst Menschen durch Charisma und Charme. Du herrschst durch Faszination, nicht durch Angst, und niemand kennt deine wahren Absichten. Alle lieben dich — und genau das ist die Falle.",
-      "traits": ["Charisma", "Emotionale Manipulation", "Soziale Kompetenz", "Empathie", "Dualität"],
+      "traits": [
+        "Charisma",
+        "Emotionale Manipulation",
+        "Soziale Kompetenz",
+        "Empathie",
+        "Dualität"
+      ],
       "quote": "Menschen geben alles jemandem, der ihnen das Gefühl gibt, verstanden zu werden."
     },
     "rebel": {
       "name": "Der Rebell",
       "title": "Der Systemzerstörer",
       "description": "Du bist ein Anti-Held, der korrupte Systeme niederreißt. Deine Methoden mögen extrem sein, aber deine Sache ist reiner als die aller anderen. Du weißt, dass Revolutionen nicht mit sauberen Händen gemacht werden.",
-      "traits": ["Prinzipientreu", "Aufsässig", "Gerechtigkeitssinn", "Radikal", "Charismatisch"],
+      "traits": [
+        "Prinzipientreu",
+        "Aufsässig",
+        "Gerechtigkeitssinn",
+        "Radikal",
+        "Charismatisch"
+      ],
       "quote": "Ein fauler Baum muss entwurzelt werden, nicht beschnitten."
     },
     "tyrant": {
       "name": "Der Tyrann",
       "title": "Die Verkörperung Absoluter Macht",
       "description": "Du herrschst durch Stärke und Einschüchterung. Es gibt keinen Kompromiss — dein Wille ist Gesetz. Du glaubst an Ordnung durch Furcht, und nur die Starken verdienen es zu führen.",
-      "traits": ["Überwältigende Präsenz", "Entschlossenheit", "Rücksichtslosigkeit", "Führung", "Ehrgeiz"],
+      "traits": [
+        "Überwältigende Präsenz",
+        "Entschlossenheit",
+        "Rücksichtslosigkeit",
+        "Führung",
+        "Ehrgeiz"
+      ],
       "quote": "Nur wer das Gewicht der Krone tragen kann, verdient sie zu tragen."
     },
     "trickster": {
       "name": "Der Trickster",
       "title": "Der Maestro des Chaos",
       "description": "Du glänzt im unvorhersehbaren Chaos. Regeln sind da, um gebrochen zu werden, und Ernst ist dein Feind. Du machst alles zum Spiel — und du gewinnst immer.",
-      "traits": ["Unberechenbar", "Schlagfertig", "Anpassungsfähig", "Kreativ", "Schelmisch"],
+      "traits": [
+        "Unberechenbar",
+        "Schlagfertig",
+        "Anpassungsfähig",
+        "Kreativ",
+        "Schelmisch"
+      ],
       "quote": "Wenn die Welt brennt, ist das Schönste die Flamme selbst."
     },
     "fallen": {
       "name": "Der Gefallene Held",
       "title": "Der Tragische Protagonist",
       "description": "Du hast einst für Gerechtigkeit gekämpft. Aber Verrat und Verlust haben dich verändert. Hinter deiner Rücksichtslosigkeit verbirgt sich der Idealismus deiner Vergangenheit — und das macht dich zum gefährlichsten Schurken.",
-      "traits": ["Tragische Vergangenheit", "Kalte Logik", "Empathie", "Brutale Entschlossenheit", "Dualität"],
+      "traits": [
+        "Tragische Vergangenheit",
+        "Kalte Logik",
+        "Empathie",
+        "Brutale Entschlossenheit",
+        "Dualität"
+      ],
       "quote": "Die Welt erschafft Helden, aber sie erschafft auch Schurken."
     }
   },
@@ -141,5 +179,11 @@
     "copy": "Link kopieren",
     "copied": "Kopiert!",
     "copyFail": "Kopieren fehlgeschlagen"
+  },
+  "related": {
+    "darkCore": "Dunkler Kern",
+    "toxicTrait": "Toxische Eigenschaft",
+    "villainOrigin": "Schurken-Ursprung",
+    "npcTest": "NPC-Test"
   }
 }

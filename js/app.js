@@ -288,6 +288,14 @@
       powerMeter.querySelector('.meter-fill').style.width = powerPct + '%';
     }, 300);
 
+    // Percentile stat
+    var percentile = Math.floor(Math.random() * 15) + 3; // 3-17%
+    var percentileEl = document.getElementById('percentile-stat');
+    if (percentileEl) {
+      var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of participants share your villain type');
+      percentileEl.innerHTML = pText.replace('{percent}', percentile);
+    }
+
     // Score breakdown
     renderScoreBreakdown();
 

@@ -89,49 +89,87 @@
     "powerLevel": "NIVEL DE PODER MALIGNO",
     "breakdown": "Desglose de puntuación",
     "share": "Compartir resultado",
-    "retry": "Repetir test"
+    "retry": "Repetir test",
+    "moreTests": "Explora más tests",
+    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes comparte tu tipo de villano"
   },
   "results": {
     "mastermind": {
       "name": "El Cerebro",
       "title": "El Titiritero de las Sombras",
       "description": "Siempre piensas diez pasos adelante. Nunca actúas directamente — todo fluye según tu plan. La gente se mueve en tu tablero sin siquiera saber que existes.",
-      "traits": ["Pensamiento estratégico", "Paciencia", "Inteligencia", "Control emocional", "Visión a largo plazo"],
+      "traits": [
+        "Pensamiento estratégico",
+        "Paciencia",
+        "Inteligencia",
+        "Control emocional",
+        "Visión a largo plazo"
+      ],
       "quote": "La mejor jugada es hacer que tu oponente crea que fue su elección."
     },
     "charmer": {
       "name": "El Encantador",
       "title": "El Manipulador Seductor",
       "description": "Controlas a la gente con carisma y encanto. Gobiernas con fascinación, no con miedo, y nadie conoce tus verdaderas intenciones. Todos te aman — y esa es exactamente la trampa.",
-      "traits": ["Carisma", "Manipulación emocional", "Habilidades sociales", "Empatía", "Dualidad"],
+      "traits": [
+        "Carisma",
+        "Manipulación emocional",
+        "Habilidades sociales",
+        "Empatía",
+        "Dualidad"
+      ],
       "quote": "La gente lo da todo a quien les hace sentir comprendidos."
     },
     "rebel": {
       "name": "El Rebelde",
       "title": "El Destructor del Sistema",
       "description": "Eres un antihéroe que lucha por destruir sistemas corruptos. Tus métodos pueden ser extremos, pero tu causa es más pura que la de nadie. Sabes que las revoluciones no se hacen con manos limpias.",
-      "traits": ["Principios", "Rebeldía", "Justicia", "Radicalismo", "Carisma"],
+      "traits": [
+        "Principios",
+        "Rebeldía",
+        "Justicia",
+        "Radicalismo",
+        "Carisma"
+      ],
       "quote": "Un árbol podrido necesita ser arrancado de raíz, no podado."
     },
     "tyrant": {
       "name": "El Tirano",
       "title": "La Encarnación del Poder Absoluto",
       "description": "Gobiernas con fuerza e intimidación. No hay compromiso — tu voluntad es la ley. Crees en el orden a través del miedo, y solo los fuertes merecen liderar.",
-      "traits": ["Presencia abrumadora", "Determinación", "Crueldad", "Liderazgo", "Ambición"],
+      "traits": [
+        "Presencia abrumadora",
+        "Determinación",
+        "Crueldad",
+        "Liderazgo",
+        "Ambición"
+      ],
       "quote": "Solo quien puede soportar el peso de la corona merece llevarla."
     },
     "trickster": {
       "name": "El Embaucador",
       "title": "El Maestro del Caos",
       "description": "Brillas en el caos impredecible. Las reglas existen para romperse, y la seriedad es tu enemigo. Conviertes todo en un juego — y siempre ganas.",
-      "traits": ["Impredecible", "Ingenioso", "Adaptable", "Creativo", "Travieso"],
+      "traits": [
+        "Impredecible",
+        "Ingenioso",
+        "Adaptable",
+        "Creativo",
+        "Travieso"
+      ],
       "quote": "Cuando el mundo arde, lo más hermoso es la llama misma."
     },
     "fallen": {
       "name": "El Héroe Caído",
       "title": "El Protagonista Trágico",
       "description": "Una vez luchaste por la justicia. Pero la traición y la pérdida te cambiaron. Detrás de tu crueldad yace el idealismo de tu pasado — y eso te convierte en el villano más peligroso.",
-      "traits": ["Pasado trágico", "Lógica fría", "Empatía", "Resolución brutal", "Dualidad"],
+      "traits": [
+        "Pasado trágico",
+        "Lógica fría",
+        "Empatía",
+        "Resolución brutal",
+        "Dualidad"
+      ],
       "quote": "El mundo crea héroes, pero también crea villanos."
     }
   },
@@ -141,5 +179,11 @@
     "copy": "Copiar enlace",
     "copied": "¡Copiado!",
     "copyFail": "Error al copiar"
+  },
+  "related": {
+    "darkCore": "Núcleo oscuro",
+    "toxicTrait": "Rasgo tóxico",
+    "villainOrigin": "Origen del villano",
+    "npcTest": "Test NPC"
   }
 }
