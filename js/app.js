@@ -112,6 +112,8 @@
   var currentQuestion = 0;
   var scores = [0, 0, 0, 0, 0, 0]; // per archetype
   var resultArchetype = '';
+  var currentResult = null;
+  var resultInlineAdLoaded = false;
 
   // DOM elements
   var introScreen = document.getElementById('intro');
@@ -138,6 +140,56 @@
   var shareFacebook = document.getElementById('shareFacebook');
   var shareCopy = document.getElementById('shareCopy');
   var themeToggle = document.getElementById('themeToggle');
+  var relatedGrid = document.getElementById('related-grid');
+  var primaryRelatedEmoji = document.getElementById('primary-related-emoji');
+  var primaryRelatedTitle = document.getElementById('primary-related-title');
+  var primaryRelatedDesc = document.getElementById('primary-related-desc');
+  var primaryRelatedCta = document.getElementById('primary-related-cta');
+  var primaryRelatedCtaText = document.getElementById('primary-related-cta-text');
+  var relatedJumpBtn = document.getElementById('related-jump-btn');
+  var resultInlineAd = document.getElementById('result-inline-ad');
+
+  var RECOMMENDATION_MAP = {
+    mastermind: ['eq-test', 'blood-type', 'attachment-style', 'mbti-love'],
+    charmer: ['attachment-style', 'mbti-love', 'eq-test', 'blood-type'],
+    rebel: ['eq-test', 'attachment-style', 'blood-type', 'mbti-love'],
+    tyrant: ['blood-type', 'eq-test', 'attachment-style', 'mbti-love'],
+    trickster: ['mbti-love', 'attachment-style', 'eq-test', 'blood-type'],
+    fallen: ['attachment-style', 'eq-test', 'blood-type', 'mbti-love']
+  };
+
+  var NEXT_STEP_COPY = {
+    mastermind: {
+      title: 'Match Strategy With EQ Test',
+      desc: 'You already read the room like a chessboard. See whether your emotional timing is as sharp as your plans.',
+      cta: 'Take EQ Test'
+    },
+    charmer: {
+      title: 'See Your Bond Pattern With Attachment Style',
+      desc: 'Your power is connection. Find out whether charm turns into closeness or distance.',
+      cta: 'Open Attachment Style'
+    },
+    rebel: {
+      title: 'Channel The Fire Into EQ Test',
+      desc: 'You move on instinct and conviction. See how emotional control shapes the impact you make.',
+      cta: 'Take EQ Test'
+    },
+    tyrant: {
+      title: 'Check What Drives Control With Blood Type',
+      desc: 'Your intensity lands fast. Compare that edge with a lighter personality lens and see what stands out.',
+      cta: 'Take Blood Type Test'
+    },
+    trickster: {
+      title: 'Turn Chaos Into Chemistry With MBTI Love',
+      desc: 'You win by surprise and timing. See which romantic pattern matches your playful side.',
+      cta: 'Open MBTI Love'
+    },
+    fallen: {
+      title: 'Decode Your Push-Pull Pattern',
+      desc: 'Your result mixes power and old wounds. Attachment Style can show what sits underneath the armor.',
+      cta: 'Take Attachment Style'
+    }
+  };
 
   // Helper: get i18n text
   function t(key, fallback) {
@@ -145,6 +197,103 @@
       return window.i18n.t(key, fallback);
     }
     return fallback || key;
+  }
+
+  function trackEvent(name, params) {
+    if (typeof gtag !== 'function') {
+      return;
+    }
+    gtag('event', name, params || {});
+  }
+
+  function getCurrentLang() {
+    if (window.i18n && window.i18n.lang) {
+      return window.i18n.lang;
+    }
+    return document.documentElement.lang || 'ko';
+  }
+
+  function getShareUrl() {
+    var url = new URL(window.location.origin + window.location.pathname);
+    url.searchParams.set('lang', getCurrentLang());
+    return url.toString();
+  }
+
+  function prioritizeRelatedCards(archetype) {
+    if (!relatedGrid) {
+      return;
+    }
+
+    var cards = Array.prototype.slice.call(relatedGrid.querySelectorAll('.related-card'));
+    var order = RECOMMENDATION_MAP[archetype] || RECOMMENDATION_MAP.mastermind;
+    var rankMap = {};
+
+    order.forEach(function(key, index) {
+      rankMap[key] = index;
+    });
+
+    cards.sort(function(a, b) {
+      var aKey = a.getAttribute('data-related-key') || '';
+      var bKey = b.getAttribute('data-related-key') || '';
+      var aRank = Object.prototype.hasOwnProperty.call(rankMap, aKey) ? rankMap[aKey] : 999;
+      var bRank = Object.prototype.hasOwnProperty.call(rankMap, bKey) ? rankMap[bKey] : 999;
+      return aRank - bRank;
+    });
+
+    cards.forEach(function(card, index) {
+      card.classList.toggle('is-featured', index < 2);
+      card.setAttribute('data-rank', String(index + 1));
+      relatedGrid.appendChild(card);
+    });
+  }
+
+  function updatePrimaryRecommendation(archetype) {
+    if (!relatedGrid || !primaryRelatedTitle || !primaryRelatedDesc || !primaryRelatedCta || !primaryRelatedCtaText || !primaryRelatedEmoji) {
+      return;
+    }
+
+    var firstCard = relatedGrid.querySelector('.related-card');
+    if (!firstCard) {
+      return;
+    }
+
+    var copy = NEXT_STEP_COPY[archetype] || NEXT_STEP_COPY.mastermind;
+    var cardColor = firstCard.style.getPropertyValue('--card-color') || '';
+    var nextStepCard = document.getElementById('next-step-card');
+    var emojiEl = firstCard.querySelector('.related-emoji');
+
+    primaryRelatedTitle.textContent = copy.title;
+    primaryRelatedDesc.textContent = copy.desc;
+    primaryRelatedCtaText.textContent = copy.cta;
+    primaryRelatedEmoji.textContent = emojiEl ? emojiEl.textContent.trim() : '->';
+    primaryRelatedCta.setAttribute('href', firstCard.getAttribute('href') || '#');
+    primaryRelatedCta.setAttribute('data-related-key', firstCard.getAttribute('data-related-key') || '');
+    primaryRelatedCta.setAttribute('data-related-rank', firstCard.getAttribute('data-rank') || '1');
+
+    if (cardColor) {
+      if (nextStepCard) {
+        nextStepCard.style.setProperty('--cta-color', cardColor);
+      }
+      primaryRelatedCta.style.setProperty('--cta-color', cardColor);
+    }
+  }
+
+  function ensureResultAdLoaded() {
+    if (resultInlineAdLoaded || !resultInlineAd) {
+      return;
+    }
+
+    var adNode = resultInlineAd.querySelector('.adsbygoogle');
+    if (!adNode) {
+      return;
+    }
+
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      resultInlineAdLoaded = true;
+    } catch (error) {
+      // Ad blockers or delayed AdSense init are non-fatal here.
+    }
   }
 
   // Theme toggle
@@ -175,13 +324,14 @@
   startBtn.addEventListener('click', function() {
     currentQuestion = 0;
     scores = [0, 0, 0, 0, 0, 0];
+    currentResult = null;
     showScreen(quizScreen);
     renderQuestion();
-
-    // GA4 event
-    if (typeof gtag === 'function') {
-      gtag('event', 'quiz_start', { event_category: 'villain_type' });
-    }
+    trackEvent('quiz_start', {
+      event_category: 'villain_type',
+      event_label: getCurrentLang(),
+      value: QUESTIONS.length
+    });
   });
 
   // Render question
@@ -204,14 +354,23 @@
       btn.className = 'option-btn';
       btn.textContent = t(qKey + '.' + opt.key, 'Option ' + (idx + 1));
       btn.addEventListener('click', function() {
-        selectOption(opt);
+        selectOption(opt, idx);
       });
       optionsContainer.appendChild(btn);
     });
   }
 
   // Select option
-  function selectOption(opt) {
+  function selectOption(opt, optionIndex) {
+    trackEvent('villain_option_select', {
+      event_category: 'villain_type',
+      event_label: 'q' + (currentQuestion + 1),
+      question_number: currentQuestion + 1,
+      choice_key: opt.key,
+      choice_index: optionIndex + 1,
+      value: optionIndex + 1
+    });
+
     // Add scores
     for (var i = 0; i < 6; i++) {
       scores[i] += opt.scores[i];
@@ -243,6 +402,9 @@
   function showResult() {
     resultArchetype = getResult();
     var archKey = 'results.' + resultArchetype;
+    var percentile = currentResult && currentResult.percentile
+      ? currentResult.percentile
+      : Math.floor(Math.random() * 15) + 3;
 
     // Progress bar full
     progressFill.style.width = '100%';
@@ -284,12 +446,18 @@
     var totalMax = QUESTIONS.length * 3; // max possible score per archetype
     var maxScore = Math.max.apply(null, scores);
     var powerPct = Math.min(Math.round((maxScore / totalMax) * 100) + 20, 100);
+    currentResult = {
+      archetype: resultArchetype,
+      powerPct: powerPct,
+      percentile: percentile
+    };
+    prioritizeRelatedCards(resultArchetype);
+    updatePrimaryRecommendation(resultArchetype);
     setTimeout(function() {
       powerMeter.querySelector('.meter-fill').style.width = powerPct + '%';
     }, 300);
 
     // Percentile stat
-    var percentile = Math.floor(Math.random() * 15) + 3; // 3-17%
     var percentileEl = document.getElementById('percentile-stat');
     if (percentileEl) {
       var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of participants share your villain type');
@@ -299,13 +467,17 @@
     // Score breakdown
     renderScoreBreakdown();
 
-    // GA4 event
-    if (typeof gtag === 'function') {
-      gtag('event', 'quiz_complete', {
-        event_category: 'villain_type',
-        event_label: resultArchetype
-      });
-    }
+    trackEvent('result_view', {
+      event_category: 'villain_type',
+      event_label: resultArchetype,
+      value: powerPct
+    });
+    trackEvent('quiz_complete', {
+      event_category: 'villain_type',
+      event_label: resultArchetype,
+      value: powerPct
+    });
+    ensureResultAdLoaded();
   }
 
   // Render score breakdown
@@ -336,8 +508,14 @@
 
   // Retry
   retryBtn.addEventListener('click', function() {
+    trackEvent('villain_retry_click', {
+      event_category: 'villain_type',
+      event_label: currentResult ? currentResult.archetype : 'unknown',
+      value: currentQuestion
+    });
     currentQuestion = 0;
     scores = [0, 0, 0, 0, 0, 0];
+    currentResult = null;
     showScreen(introScreen);
     powerMeter.querySelector('.meter-fill').style.width = '0%';
   });
@@ -345,6 +523,10 @@
   // Share
   shareBtn.addEventListener('click', function() {
     shareModal.classList.add('active');
+    trackEvent('villain_share_open', {
+      event_category: 'villain_type',
+      event_label: currentResult ? currentResult.archetype : 'unknown'
+    });
   });
 
   shareClose.addEventListener('click', function() {
@@ -363,25 +545,25 @@
     return shareText.replace('{type}', name);
   }
 
-  function getShareUrl() {
-    return 'https://dopabrain.com/villain-type/';
-  }
-
   shareTwitter.addEventListener('click', function() {
     var text = encodeURIComponent(getShareText());
     var url = encodeURIComponent(getShareUrl());
     window.open('https://twitter.com/intent/tweet?text=' + text + '&url=' + url, '_blank');
-    if (typeof gtag === 'function') {
-      gtag('event', 'share', { method: 'twitter', content_type: 'quiz_result' });
-    }
+    trackEvent('villain_share_click', {
+      event_category: 'villain_type',
+      event_label: 'twitter',
+      result_archetype: currentResult ? currentResult.archetype : resultArchetype
+    });
   });
 
   shareFacebook.addEventListener('click', function() {
     var url = encodeURIComponent(getShareUrl());
     window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
-    if (typeof gtag === 'function') {
-      gtag('event', 'share', { method: 'facebook', content_type: 'quiz_result' });
-    }
+    trackEvent('villain_share_click', {
+      event_category: 'villain_type',
+      event_label: 'facebook',
+      result_archetype: currentResult ? currentResult.archetype : resultArchetype
+    });
   });
 
   shareCopy.addEventListener('click', function() {
@@ -391,10 +573,51 @@
     }).catch(function() {
       showToast(t('share.copyFail', 'Copy failed'));
     });
-    if (typeof gtag === 'function') {
-      gtag('event', 'share', { method: 'copy', content_type: 'quiz_result' });
-    }
+    trackEvent('villain_share_click', {
+      event_category: 'villain_type',
+      event_label: 'copy',
+      result_archetype: currentResult ? currentResult.archetype : resultArchetype
+    });
   });
+
+  if (primaryRelatedCta) {
+    primaryRelatedCta.addEventListener('click', function() {
+      trackEvent('villain_primary_cta_click', {
+        event_category: 'villain_type',
+        event_label: this.getAttribute('data-related-key') || this.getAttribute('href'),
+        result_archetype: currentResult ? currentResult.archetype : resultArchetype,
+        related_rank: this.getAttribute('data-related-rank') || '1'
+      });
+    });
+  }
+
+  if (relatedJumpBtn) {
+    relatedJumpBtn.addEventListener('click', function() {
+      var relatedSection = document.querySelector('.related-tests');
+      if (relatedSection) {
+        relatedSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      trackEvent('villain_related_jump_click', {
+        event_category: 'villain_type',
+        event_label: currentResult ? currentResult.archetype : resultArchetype
+      });
+    });
+  }
+
+  if (relatedGrid) {
+    relatedGrid.addEventListener('click', function(event) {
+      var card = event.target.closest('.related-card');
+      if (!card) {
+        return;
+      }
+      trackEvent('villain_related_click', {
+        event_category: 'villain_type',
+        event_label: card.getAttribute('data-related-key') || card.getAttribute('href'),
+        result_archetype: currentResult ? currentResult.archetype : resultArchetype,
+        related_rank: card.getAttribute('data-rank') || 'unknown'
+      });
+    });
+  }
 
   // Toast
   function showToast(msg) {
@@ -438,6 +661,16 @@
           resultTraits.appendChild(tag);
         });
 
+        if (currentResult && currentResult.percentile) {
+          var percentileEl = document.getElementById('percentile-stat');
+          if (percentileEl) {
+            var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of participants share your villain type');
+            percentileEl.innerHTML = pText.replace('{percent}', currentResult.percentile);
+          }
+        }
+
+        prioritizeRelatedCards(resultArchetype);
+        updatePrimaryRecommendation(resultArchetype);
         renderScoreBreakdown();
       }, 200);
     } else if (quizScreen.classList.contains('active')) {

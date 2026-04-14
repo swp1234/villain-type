@@ -91,7 +91,9 @@
     "share": "결과 공유하기",
     "retry": "다시 테스트하기",
     "moreTests": "더 많은 테스트 탐색",
-    "percentileStat": "참가자의 <strong>{percent}%</strong>만이 당신과 같은 빌런 유형입니다"
+    "percentileStat": "참가자의 <strong>{percent}%</strong>만이 당신과 같은 빌런 유형입니다",
+    "nextStepLabel": "??? ?? ???",
+    "jumpToMore": "?? ?? ??? ??"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "다크 코어",
     "toxicTrait": "독성 특성",
     "villainOrigin": "빌런 오리진",
-    "npcTest": "NPC 테스트"
+    "npcTest": "NPC 테스트",
+    "eqTest": "EQ ???",
+    "attachmentStyle": "?? ??",
+    "mbtiLove": "MBTI ?? ???",
+    "bloodType": "???"
   }
 }

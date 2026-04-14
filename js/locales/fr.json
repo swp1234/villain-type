@@ -91,7 +91,9 @@
     "share": "Partager le résultat",
     "retry": "Refaire le test",
     "moreTests": "Découvrez plus de tests",
-    "percentileStat": "Seulement <strong>{percent}%</strong> des participants partagent votre type de méchant"
+    "percentileStat": "Seulement <strong>{percent}%</strong> des participants partagent votre type de méchant",
+    "nextStepLabel": "Prochain test recommand?",
+    "jumpToMore": "Voir tous les tests associ?s"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "Noyau sombre",
     "toxicTrait": "Trait toxique",
     "villainOrigin": "Origine du méchant",
-    "npcTest": "Test NPC"
+    "npcTest": "Test NPC",
+    "eqTest": "Test d'EQ",
+    "attachmentStyle": "Style d'attachement",
+    "mbtiLove": "Test d'Amour MBTI",
+    "bloodType": "Groupe sanguin"
   }
 }

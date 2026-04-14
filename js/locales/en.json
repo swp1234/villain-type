@@ -91,6 +91,8 @@
     "share": "Share Result",
     "retry": "Take Again",
     "moreTests": "Explore More Tests",
+    "nextStepLabel": "Best Next Test",
+    "jumpToMore": "See All Follow-ups",
     "percentileStat": "Only <strong>{percent}%</strong> of participants share your villain type"
   },
   "results": {
@@ -184,6 +186,10 @@
     "darkCore": "Dark Core",
     "toxicTrait": "Toxic Trait",
     "villainOrigin": "Villain Origin",
-    "npcTest": "NPC Test"
+    "npcTest": "NPC Test",
+    "eqTest": "EQ Test",
+    "attachmentStyle": "Attachment Style",
+    "mbtiLove": "MBTI Love",
+    "bloodType": "Blood Type"
   }
 }

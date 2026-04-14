@@ -91,7 +91,9 @@
     "share": "Ergebnis teilen",
     "retry": "Nochmal testen",
     "moreTests": "Weitere Tests entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen deinen Schurkentyp"
+    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen deinen Schurkentyp",
+    "nextStepLabel": "N?chster empfohlener Test",
+    "jumpToMore": "Alle verwandten Tests anzeigen"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "Dunkler Kern",
     "toxicTrait": "Toxische Eigenschaft",
     "villainOrigin": "Schurken-Ursprung",
-    "npcTest": "NPC-Test"
+    "npcTest": "NPC-Test",
+    "eqTest": "EQ-Test",
+    "attachmentStyle": "Bindungsstil",
+    "mbtiLove": "MBTI-Liebestest",
+    "bloodType": "Blutgruppe"
   }
 }

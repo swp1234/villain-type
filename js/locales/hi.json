@@ -91,7 +91,9 @@
     "share": "परिणाम साझा करें",
     "retry": "दोबारा टेस्ट करें",
     "moreTests": "और टेस्ट देखें",
-    "percentileStat": "केवल <strong>{percent}%</strong> प्रतिभागियों का विलेन प्रकार आपसे मिलता है"
+    "percentileStat": "केवल <strong>{percent}%</strong> प्रतिभागियों का विलेन प्रकार आपसे मिलता है",
+    "nextStepLabel": "???? ???? ????? ???????",
+    "jumpToMore": "??? ??????? ??????? ?????"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "डार्क कोर",
     "toxicTrait": "विषाक्त विशेषता",
     "villainOrigin": "विलेन ओरिजिन",
-    "npcTest": "NPC टेस्ट"
+    "npcTest": "NPC टेस्ट",
+    "eqTest": "EQ ?????",
+    "attachmentStyle": "???? ????",
+    "mbtiLove": "MBTI ????? ???????",
+    "bloodType": "???? ????"
   }
 }

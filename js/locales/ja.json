@@ -91,7 +91,9 @@
     "share": "結果をシェア",
     "retry": "もう一度テスト",
     "moreTests": "もっとテストを探す",
-    "percentileStat": "参加者のわずか <strong>{percent}%</strong> があなたと同じヴィランタイプです"
+    "percentileStat": "参加者のわずか <strong>{percent}%</strong> があなたと同じヴィランタイプです",
+    "nextStepLabel": "?????????",
+    "jumpToMore": "???????????"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "ダークコア",
     "toxicTrait": "毒性特性",
     "villainOrigin": "ヴィランオリジン",
-    "npcTest": "NPCテスト"
+    "npcTest": "NPCテスト",
+    "eqTest": "EQ???",
+    "attachmentStyle": "?????",
+    "mbtiLove": "MBTI????",
+    "bloodType": "???"
   }
 }

@@ -91,7 +91,9 @@
     "share": "Compartir resultado",
     "retry": "Repetir test",
     "moreTests": "Explora más tests",
-    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes comparte tu tipo de villano"
+    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes comparte tu tipo de villano",
+    "nextStepLabel": "Siguiente prueba ?ptima",
+    "jumpToMore": "Ver todas las pruebas relacionadas"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "Núcleo oscuro",
     "toxicTrait": "Rasgo tóxico",
     "villainOrigin": "Origen del villano",
-    "npcTest": "Test NPC"
+    "npcTest": "Test NPC",
+    "eqTest": "Test de EQ",
+    "attachmentStyle": "Estilo de apego",
+    "mbtiLove": "Test de Amor MBTI",
+    "bloodType": "Tipo de sangre"
   }
 }

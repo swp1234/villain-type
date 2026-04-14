@@ -91,7 +91,9 @@
     "share": "Sonucu Paylaş",
     "retry": "Tekrar Dene",
     "moreTests": "Daha Fazla Test Keşfet",
-    "percentileStat": "Katılımcıların yalnızca <strong>{percent}%</strong>'i senin kötü karakter tipine sahip"
+    "percentileStat": "Katılımcıların yalnızca <strong>{percent}%</strong>'i senin kötü karakter tipine sahip",
+    "nextStepLabel": "Sonraki ?nerilen Test",
+    "jumpToMore": "T?m ?lgili Testleri G?r"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "Karanlık Çekirdek",
     "toxicTrait": "Toksik Özellik",
     "villainOrigin": "Kötü Karakter Kökeni",
-    "npcTest": "NPC Testi"
+    "npcTest": "NPC Testi",
+    "eqTest": "EQ Testi",
+    "attachmentStyle": "Ba?lanma Stili",
+    "mbtiLove": "MBTI A?k Testi",
+    "bloodType": "Kan Grubu"
   }
 }

@@ -587,10 +587,94 @@ body::before {
   flex-direction: column;
   gap: 12px;
   align-items: center;
+  margin-top: 20px;
 }
 
 .btn-share {
   gap: 8px;
+}
+
+/* Result Funnel */
+.quick-actions-card {
+  --cta-color: var(--primary);
+  margin: 24px 0 0;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(139, 0, 0, 0.24);
+  background: linear-gradient(180deg, rgba(139, 0, 0, 0.14), rgba(255, 255, 255, 0.03));
+  box-shadow: 0 16px 32px var(--shadow);
+  text-align: left;
+}
+
+.quick-actions-summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.quick-actions-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  flex-shrink: 0;
+}
+
+.quick-actions-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.quick-actions-label {
+  margin: 0 0 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.quick-actions-title {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: var(--cta-color);
+}
+
+.quick-actions-desc {
+  margin: 8px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--text-secondary);
+}
+
+.quick-actions-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.quick-actions-buttons .btn-primary,
+.quick-actions-buttons .btn-secondary {
+  width: 100%;
+}
+
+#primary-related-cta {
+  background: var(--cta-color);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.result-ad-slot {
+  margin: 18px auto 0;
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(139, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.03);
 }
 
 /* ===== Share Modal ===== */
@@ -800,6 +884,11 @@ body::before {
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
 }
 
+.related-card.is-featured {
+  border-color: var(--card-color, var(--primary));
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+}
+
 .related-emoji {
   font-size: 1.5rem;
   line-height: 1;
@@ -814,5 +903,9 @@ body::before {
 @media (min-width: 640px) {
   .related-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .quick-actions-buttons {
+    grid-template-columns: 1fr 1fr;
   }
 }

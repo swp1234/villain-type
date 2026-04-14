@@ -91,7 +91,9 @@
     "share": "分享结果",
     "retry": "重新测试",
     "moreTests": "探索更多测试",
-    "percentileStat": "仅有 <strong>{percent}%</strong> 的参与者与你拥有相同的反派类型"
+    "percentileStat": "仅有 <strong>{percent}%</strong> 的参与者与你拥有相同的反派类型",
+    "nextStepLabel": "??????",
+    "jumpToMore": "????????"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "黑暗核心",
     "toxicTrait": "毒性特征",
     "villainOrigin": "反派起源",
-    "npcTest": "NPC测试"
+    "npcTest": "NPC测试",
+    "eqTest": "????",
+    "attachmentStyle": "????",
+    "mbtiLove": "MBTI????",
+    "bloodType": "??"
   }
 }

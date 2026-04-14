@@ -91,7 +91,9 @@
     "share": "Bagikan Hasil",
     "retry": "Tes Ulang",
     "moreTests": "Jelajahi Tes Lainnya",
-    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki tipe penjahat yang sama denganmu"
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki tipe penjahat yang sama denganmu",
+    "nextStepLabel": "Tes Selanjutnya Terbaik",
+    "jumpToMore": "Lihat Semua Tes Terkait"
   },
   "results": {
     "mastermind": {
@@ -184,6 +186,10 @@
     "darkCore": "Inti Gelap",
     "toxicTrait": "Sifat Toksik",
     "villainOrigin": "Asal Penjahat",
-    "npcTest": "Tes NPC"
+    "npcTest": "Tes NPC",
+    "eqTest": "Tes EQ",
+    "attachmentStyle": "Gaya Keterikatan",
+    "mbtiLove": "Tes Cinta MBTI",
+    "bloodType": "Golongan Darah"
   }
 }
