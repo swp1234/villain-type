@@ -678,7 +678,13 @@
     }
   });
 
+  function hideAppLoader() {
+    const appLoader = document.getElementById('app-loader');
+    if (appLoader) appLoader.style.display = 'none';
+  }
+
   // Init
   initTheme();
+  hideAppLoader();
 
 })();
