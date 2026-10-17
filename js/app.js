@@ -289,7 +289,7 @@
     }
 
     try {
-      (adsbygoogle = window.adsbygoogle || []).push({});
+
       resultInlineAdLoaded = true;
     } catch (error) {
       // Ad blockers or delayed AdSense init are non-fatal here.
