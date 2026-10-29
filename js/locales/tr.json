@@ -91,9 +91,10 @@
     "share": "Sonucu Paylaş",
     "retry": "Tekrar Dene",
     "moreTests": "Daha Fazla Test Keşfet",
-    "percentileStat": "Katılımcıların yalnızca <strong>{percent}%</strong>'i senin kötü karakter tipine sahip",
+    "percentileStat": "Kötü karakter tipin 10 psikolojik senaryodaki baskın içgüdüsel tepkilerini yansıtır.",
     "nextStepLabel": "Sonraki ?nerilen Test",
-    "jumpToMore": "T?m ?lgili Testleri G?r"
+    "jumpToMore": "T?m ?lgili Testleri G?r",
+    "profileStat": "Kötü karakter tipin 10 psikolojik senaryodaki baskın içgüdüsel tepkilerini yansıtır."
   },
   "results": {
     "mastermind": {

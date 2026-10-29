@@ -91,9 +91,10 @@
     "share": "결과 공유하기",
     "retry": "다시 테스트하기",
     "moreTests": "더 많은 테스트 탐색",
-    "percentileStat": "참가자의 <strong>{percent}%</strong>만이 당신과 같은 빌런 유형입니다",
+    "percentileStat": "당신의 빌런 유형은 10가지 심리 시나리오에서 나타난 본능적인 성향 패턴입니다.",
     "nextStepLabel": "??? ?? ???",
-    "jumpToMore": "?? ?? ??? ??"
+    "jumpToMore": "?? ?? ??? ??",
+    "profileStat": "당신의 빌런 유형은 10가지 심리 시나리오에서 나타난 본능적인 성향 패턴입니다."
   },
   "results": {
     "mastermind": {

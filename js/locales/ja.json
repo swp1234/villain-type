@@ -91,9 +91,10 @@
     "share": "結果をシェア",
     "retry": "もう一度テスト",
     "moreTests": "もっとテストを探す",
-    "percentileStat": "参加者のわずか <strong>{percent}%</strong> があなたと同じヴィランタイプです",
+    "percentileStat": "あなたのヴィランタイプは10の心理的シナリオにおける直感的な傾向パターンを表しています。",
     "nextStepLabel": "?????????",
-    "jumpToMore": "???????????"
+    "jumpToMore": "???????????",
+    "profileStat": "あなたのヴィランタイプは10の心理的シナリオにおける直感的な傾向パターンを表しています。"
   },
   "results": {
     "mastermind": {

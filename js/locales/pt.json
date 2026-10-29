@@ -91,9 +91,10 @@
     "share": "Compartilhar resultado",
     "retry": "Refazer o teste",
     "moreTests": "Explore mais testes",
-    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes compartilham seu tipo de vilão",
+    "percentileStat": "Seu tipo de vilão reflete seus padrões instintivos em 10 situações psicológicas.",
     "nextStepLabel": "Pr?ximo teste recomendado",
-    "jumpToMore": "Ver todos os testes relacionados"
+    "jumpToMore": "Ver todos os testes relacionados",
+    "profileStat": "Seu tipo de vilão reflete seus padrões instintivos em 10 situações psicológicas."
   },
   "results": {
     "mastermind": {

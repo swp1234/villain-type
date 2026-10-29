@@ -91,9 +91,10 @@
     "share": "Bagikan Hasil",
     "retry": "Tes Ulang",
     "moreTests": "Jelajahi Tes Lainnya",
-    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki tipe penjahat yang sama denganmu",
+    "percentileStat": "Tipe penjahatmu mencerminkan pola naluriah dominan dari 10 skenario psikologis.",
     "nextStepLabel": "Tes Selanjutnya Terbaik",
-    "jumpToMore": "Lihat Semua Tes Terkait"
+    "jumpToMore": "Lihat Semua Tes Terkait",
+    "profileStat": "Tipe penjahatmu mencerminkan pola naluriah dominan dari 10 skenario psikologis."
   },
   "results": {
     "mastermind": {

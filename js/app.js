@@ -402,9 +402,8 @@
   function showResult() {
     resultArchetype = getResult();
     var archKey = 'results.' + resultArchetype;
-    var percentile = currentResult && currentResult.percentile
-      ? currentResult.percentile
-      : Math.floor(Math.random() * 15) + 3;
+    // Honest profile stat
+    var percentile = null;
 
     // Progress bar full
     progressFill.style.width = '100%';
@@ -453,15 +452,15 @@
     };
     prioritizeRelatedCards(resultArchetype);
     updatePrimaryRecommendation(resultArchetype);
+    preserveLanguageLinks();
     setTimeout(function() {
       powerMeter.querySelector('.meter-fill').style.width = powerPct + '%';
     }, 300);
 
-    // Percentile stat
+    // Profile reflection stat
     var percentileEl = document.getElementById('percentile-stat');
     if (percentileEl) {
-      var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of participants share your villain type');
-      percentileEl.innerHTML = pText.replace('{percent}', percentile);
+      percentileEl.textContent = t('result.profileStat', 'Your archetype reflects dominant instinct patterns across 10 psychological scenarios.');
     }
 
     // Score breakdown
@@ -661,12 +660,9 @@
           resultTraits.appendChild(tag);
         });
 
-        if (currentResult && currentResult.percentile) {
-          var percentileEl = document.getElementById('percentile-stat');
-          if (percentileEl) {
-            var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of participants share your villain type');
-            percentileEl.innerHTML = pText.replace('{percent}', currentResult.percentile);
-          }
+        var percentileEl = document.getElementById('percentile-stat');
+        if (percentileEl) {
+          percentileEl.textContent = t('result.profileStat', 'Your archetype reflects dominant instinct patterns across 10 psychological scenarios.');
         }
 
         prioritizeRelatedCards(resultArchetype);

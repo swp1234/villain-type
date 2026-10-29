@@ -91,9 +91,10 @@
     "share": "Compartir resultado",
     "retry": "Repetir test",
     "moreTests": "Explora más tests",
-    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes comparte tu tipo de villano",
+    "percentileStat": "Tu tipo de villano refleja tus patrones instintivos en 10 situaciones psicológicas.",
     "nextStepLabel": "Siguiente prueba ?ptima",
-    "jumpToMore": "Ver todas las pruebas relacionadas"
+    "jumpToMore": "Ver todas las pruebas relacionadas",
+    "profileStat": "Tu tipo de villano refleja tus patrones instintivos en 10 situaciones psicológicas."
   },
   "results": {
     "mastermind": {

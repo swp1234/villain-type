@@ -91,9 +91,10 @@
     "share": "Partager le résultat",
     "retry": "Refaire le test",
     "moreTests": "Découvrez plus de tests",
-    "percentileStat": "Seulement <strong>{percent}%</strong> des participants partagent votre type de méchant",
+    "percentileStat": "Votre type de méchant reflète vos tendances instinctives à travers 10 scénarios psychologiques.",
     "nextStepLabel": "Prochain test recommand?",
-    "jumpToMore": "Voir tous les tests associ?s"
+    "jumpToMore": "Voir tous les tests associ?s",
+    "profileStat": "Votre type de méchant reflète vos tendances instinctives à travers 10 scénarios psychologiques."
   },
   "results": {
     "mastermind": {

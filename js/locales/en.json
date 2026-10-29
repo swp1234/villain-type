@@ -93,7 +93,8 @@
     "moreTests": "Explore More Tests",
     "nextStepLabel": "Best Next Test",
     "jumpToMore": "See All Follow-ups",
-    "percentileStat": "Only <strong>{percent}%</strong> of participants share your villain type"
+    "percentileStat": "Your archetype reflects dominant instinct patterns across 10 psychological scenarios.",
+    "profileStat": "Your archetype reflects dominant instinct patterns across 10 psychological scenarios."
   },
   "results": {
     "mastermind": {

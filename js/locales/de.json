@@ -91,9 +91,10 @@
     "share": "Ergebnis teilen",
     "retry": "Nochmal testen",
     "moreTests": "Weitere Tests entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen deinen Schurkentyp",
+    "percentileStat": "Dein Schurkentyp spiegelt deine vorherrschenden Instinktmuster in 10 psychologischen Szenarien wider.",
     "nextStepLabel": "N?chster empfohlener Test",
-    "jumpToMore": "Alle verwandten Tests anzeigen"
+    "jumpToMore": "Alle verwandten Tests anzeigen",
+    "profileStat": "Dein Schurkentyp spiegelt deine vorherrschenden Instinktmuster in 10 psychologischen Szenarien wider."
   },
   "results": {
     "mastermind": {
